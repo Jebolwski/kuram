@@ -123,6 +123,26 @@ table {
 }
 
 @font-face {
+  font-family: PlusJakartaBold;
+  src: url("../fonts/PlusJakartaSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: PlusJakartaMedium;
+  src: url("../fonts/PlusJakartaSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: PlusJakartaSemiBold;
+  src: url("../fonts/PlusJakartaSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: PlusJakartaExtraBold;
+  src: url("../fonts/PlusJakartaSans-ExtraBold.ttf");
+}
+
+@font-face {
   font-family: Patron;
   src: url("../fonts/Patron.ttf");
 }
@@ -171,12 +191,17 @@ table {
   position: relative;
   margin-top: 40px;
   min-height: 60px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .footer_div .d-flex div p {
   padding: 5px 0;
   font-size: 12px;
+  cursor: pointer;
+}
+
+.footer_div p {
+  cursor: pointer;
 }
 
 .weird_icon {
@@ -186,7 +211,7 @@ table {
   max-width: 458px;
   opacity: 0.4;
   left: 14%;
-  bottom: 72px;
+  bottom: 63px;
 }
 
 .up_button {
@@ -233,6 +258,10 @@ table {
 
 .footer_div img {
   z-index: 1000 !important;
+}
+
+.footer_div .bottomest {
+  z-index: 9999 !important;
 }
 
 @media only screen and (max-width: 767px) {

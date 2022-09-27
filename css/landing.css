@@ -37,8 +37,10 @@
   position: relative;
   border: 1px solid #03304e;
   color: white;
+  border-radius: 10px;
   max-height: 300px;
   max-width: 1215px;
+  width: 74vw;
 }
 
 .picture_div .arrow {
@@ -52,6 +54,7 @@
   margin-top: 40px;
   max-width: 1205px;
   width: 80vw;
+  margin-left: -3vw;
 }
 
 .description_text {
