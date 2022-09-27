@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Home Page</title>
     <link
       rel="stylesheet"
       href="../assets/bootstrap-5.2.1/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="../assets/fontawesome-6.2.0/css/all.min.css" />
-    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/index.css" />
+    <link rel="stylesheet" href="../assets/css/header_footer.css" />
   </head>
   <body>
     <header class="top_header">
@@ -57,7 +58,7 @@
         </div>
       </div>
       <div
-        class="container-fluid d-block d-xl-none position-fixed top-0"
+        class="container-fluid d-block d-xl-none"
         style="background-color: #212121; z-index: 100"
       >
         <div class="row align-items-center justify-content-between">
@@ -73,29 +74,45 @@
     </header>
 
     <div class="toggle_fixed_div">
-      <p>ANA SAYFA</p>
-      <p>HİZMETLERİMİZ</p>
-      <p>ÜRÜNLERİMİZ</p>
-      <p>HAKKIMIZDA</p>
-      <button class="top_header__lets_talk">Let’s Talk</button>
-      <div class="d-flex align-items-center">
-        <p class="me-1" style="color: #9b9b9b; font-family: Patron-Bold">
-          ENGLISH
-        </p>
-        <img src="../assets/svgs/down_arrow.svg" alt="" />
-      </div>
-      <p
-        style="
-          color: #9b9b9b;
-          font-size: 15px;
-          font-family: Patron-MediumItalic;
-        "
+      <div
+        class="container-fluid d-block d-xl-none"
+        style="background-color: #212121; z-index: 100"
       >
-        Destek
-      </p>
-      <div class="d-flex align-items-center">
-        <p style="color: #0873ba" class="me-2">Createrun</p>
-        <img src="../assets/svgs/arrow_tilted.svg" />
+        <div class="row align-items-center justify-content-between">
+          <div class="col-auto">
+            <img src="../assets/svgs/kuram_icon.svg" alt="" />
+          </div>
+
+          <div class="col-auto bar_icon">
+            <i class="fa-solid fa-bars-staggered fa-xl text-white"></i>
+          </div>
+        </div>
+      </div>
+      <div style="padding: 60px">
+        <p>ANA SAYFA</p>
+        <p>HİZMETLERİMİZ</p>
+        <p>ÜRÜNLERİMİZ</p>
+        <p>HAKKIMIZDA</p>
+        <button class="top_header__lets_talk">Let’s Talk</button>
+        <div class="d-flex align-items-center">
+          <p class="me-1" style="color: #9b9b9b; font-family: Patron-Bold">
+            ENGLISH
+          </p>
+          <img src="../assets/svgs/down_arrow.svg" alt="" />
+        </div>
+        <p
+          style="
+            color: #9b9b9b;
+            font-size: 15px;
+            font-family: Patron-MediumItalic;
+          "
+        >
+          Destek
+        </p>
+        <div class="d-flex align-items-center">
+          <p style="color: #0873ba" class="me-2">Createrun</p>
+          <img src="../assets/svgs/arrow_tilted.svg" />
+        </div>
       </div>
     </div>
 
@@ -756,90 +773,94 @@
       </div>
     </div>
 
-    <footer class="footer_div container-fluid">
-      <img src="../assets/svgs/weird_design.svg" class="weird_icon" />
-      <div class="d-flex flex-wrap justify-content-center gap-5">
-        <img
-          src="../assets/svgs/kuram_icon.svg"
-          style="height: 84px; width: 186px"
-        />
-        <div class="mt-3">
-          <p>Get Started</p>
-          <p>Support</p>
-        </div>
-        <div class="mt-3">
-          <p>Products</p>
-          <p>Imply Polaris</p>
-          <p>Imply Enterprise</p>
-          <p>Imply Enterprise Hybrid</p>
-          <p>Imply Pivot</p>
-          <p>Tools</p>
-          <p>Management</p>
-          <p>Monitoring</p>
-        </div>
-        <div class="mt-3">
-          <p>Resources</p>
-          <p>Blogs</p>
-          <p>Success Stories</p>
-          <p>Documents</p>
-          <p>Videos</p>
-        </div>
-        <div class="mt-3">
-          <p>Developer</p>
-          <p>Developers What is Druid?</p>
-          <p>Imply vs Druid</p>
-          <p>News</p>
-          <p>Help Center</p>
-          <p>Documents</p>
-          <p>Druid Community</p>
-          <p>Developer Videos</p>
-          <p>Druid Summit Videos</p>
-          <p>Druid University Videos</p>
-        </div>
-        <div class="mt-3">
-          <p>Company & Values</p>
-          <p>Company</p>
-          <p>Careers</p>
-          <p>Leadership</p>
-          <p>Contact</p>
-          <p>Values</p>
-          <p>Imployees</p>
-          <p>Partners</p>
-          <p>Newsroom</p>
-          <p>Press Releases</p>
-        </div>
-      </div>
-      <div class="container">
-        <div class="up_button" style="margin-top: 120px">
-          <svg
-            width="15"
-            height="17"
-            viewBox="0 0 15 17"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              clip-rule="evenodd"
-              d="M0.488436 8.38675C1.13965 9.03771 2.19417 9.03771 2.84513 8.38675L5.54178 5.68985L5.54178 15.0002C5.54178 15.9215 6.28852 16.667 7.2086 16.667C8.12868 16.667 8.87543 15.9215 8.87543 15.0002L8.87542 5.6901L11.5721 8.387C12.2233 9.03796 13.2778 9.03796 13.9288 8.387C14.5797 7.73678 14.5797 6.68002 13.9288 6.0303L8.38882 0.490347C8.23443 0.336209 8.04887 0.21275 7.84211 0.126952C7.83413 0.123461 7.8254 0.122462 7.81642 0.118971C7.62711 0.044396 7.42409 6.11339e-07 7.2086 6.30177e-07C6.99311 6.49016e-07 6.78984 0.0443961 6.60078 0.118722C6.59205 0.122214 6.58407 0.123212 6.57534 0.126702C6.36958 0.211005 6.18401 0.334464 6.02838 0.490098L0.488436 6.03005C-0.16278 6.68002 -0.16278 7.73553 0.488436 8.38675Z"
-              fill="#929292"
-            />
-          </svg>
-        </div>
-      </div>
-      <div class="container px-0 px-md-5">
-        <div
-          class="d-flex align-items-center flex-wrap gap-4"
-          style="font-size: 12px"
-        >
-          <div class="d-flex gap-1">
-            <p>ENGLISH</p>
-            <img src="../assets/svgs/down_arrow.svg" style="width: 14px" />
+    <footer class="footer_div">
+      <div class="contanier-fluid">
+        <img src="../assets/svgs/weird_design.svg" class="weird_icon" />
+        <div class="d-flex flex-wrap justify-content-center gap-5">
+          <img
+            src="../assets/svgs/kuram_icon.svg"
+            style="height: 84px; width: 186px"
+          />
+          <div class="mt-3">
+            <p>Get Started</p>
+            <p>Support</p>
           </div>
-          <p class="ms-5">Also of Interest</p>
-          <p>Pivot SQL</p>
-          <p>Apache Druid</p>
-          <p>®Kuramsoft Analysis – An Open Source Architecture</p>
+          <div class="mt-3">
+            <p>Products</p>
+            <p>Imply Polaris</p>
+            <p>Imply Enterprise</p>
+            <p>Imply Enterprise Hybrid</p>
+            <p>Imply Pivot</p>
+            <p>Tools</p>
+            <p>Management</p>
+            <p>Monitoring</p>
+          </div>
+          <div class="mt-3">
+            <p>Resources</p>
+            <p>Blogs</p>
+            <p>Success Stories</p>
+            <p>Documents</p>
+            <p>Videos</p>
+          </div>
+          <div class="mt-3">
+            <p>Developer</p>
+            <p>Developers What is Druid?</p>
+            <p>Imply vs Druid</p>
+            <p>News</p>
+            <p>Help Center</p>
+            <p>Documents</p>
+            <p>Druid Community</p>
+            <p>Developer Videos</p>
+            <p>Druid Summit Videos</p>
+            <p>Druid University Videos</p>
+          </div>
+          <div class="mt-3">
+            <p>Company & Values</p>
+            <p>Company</p>
+            <p>Careers</p>
+            <p>Leadership</p>
+            <p>Contact</p>
+            <p>Values</p>
+            <p>Imployees</p>
+            <p>Partners</p>
+            <p>Newsroom</p>
+            <p>Press Releases</p>
+          </div>
+        </div>
+        <div class="container">
+          <div class="up_button" style="margin-top: 60px">
+            <svg
+              width="15"
+              height="17"
+              viewBox="0 0 15 17"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0.488436 8.38675C1.13965 9.03771 2.19417 9.03771 2.84513 8.38675L5.54178 5.68985L5.54178 15.0002C5.54178 15.9215 6.28852 16.667 7.2086 16.667C8.12868 16.667 8.87543 15.9215 8.87543 15.0002L8.87542 5.6901L11.5721 8.387C12.2233 9.03796 13.2778 9.03796 13.9288 8.387C14.5797 7.73678 14.5797 6.68002 13.9288 6.0303L8.38882 0.490347C8.23443 0.336209 8.04887 0.21275 7.84211 0.126952C7.83413 0.123461 7.8254 0.122462 7.81642 0.118971C7.62711 0.044396 7.42409 6.11339e-07 7.2086 6.30177e-07C6.99311 6.49016e-07 6.78984 0.0443961 6.60078 0.118722C6.59205 0.122214 6.58407 0.123212 6.57534 0.126702C6.36958 0.211005 6.18401 0.334464 6.02838 0.490098L0.488436 6.03005C-0.16278 6.68002 -0.16278 7.73553 0.488436 8.38675Z"
+                fill="#929292"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="px-0 px-md-5">
+        <div class="container">
+          <div
+            class="d-flex align-items-center flex-wrap gap-5"
+            style="font-size: 12px; min-height: 64px"
+          >
+            <div class="d-flex gap-1">
+              <p>ENGLISH</p>
+              <img src="../assets/svgs/down_arrow.svg" style="width: 14px" />
+            </div>
+            <p class="ms-5">Also of Interest</p>
+            <p>Pivot SQL</p>
+            <p>Apache Druid</p>
+            <p>®Kuramsoft Analysis – An Open Source Architecture</p>
+          </div>
         </div>
       </div>
     </footer>
