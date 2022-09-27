@@ -100,7 +100,7 @@ section {
 body {
   overflow-x: hidden;
   line-height: 1;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
   background-color: #212121;
 }
 ol,
@@ -125,17 +125,32 @@ table {
 
 @font-face {
   font-family: Patron;
-  src: url("../fonts/Patron.otf");
+  src: url("../fonts/Patron.ttf");
+}
+
+@font-face {
+  font-family: Patron-Medium;
+  src: url("../fonts/Patron-Medium.ttf");
+}
+
+@font-face {
+  font-family: Patron-Bold;
+  src: url("../fonts/Patron-Bold.ttf");
+}
+
+@font-face {
+  font-family: Patron-MediumItalic;
+  src: url("../fonts/Patron-MediumItalic.ttf");
 }
 
 .top_header__lets_talk {
   background: linear-gradient(180deg, #043b60 0%, #022943 100%);
   box-shadow: 0px 0px 20px 0px #00000003;
-  height: 44px;
-  width: 138px;
   border-radius: 5px;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
+  padding: 10px;
+  font-family: "Patron-Bold";
   line-height: 12px;
   letter-spacing: -0.03em;
   border: 0;
@@ -143,7 +158,13 @@ table {
 
 .top_header p {
   color: white;
+  cursor: pointer;
+  font-family: "Patron";
   font-size: 14px;
+}
+
+* {
+  font-family: "Patron-Medium";
 }
 
 .block {
@@ -160,10 +181,6 @@ table {
   display: grid;
   place-items: center;
   color: white;
-}
-
-.block__wave img {
-  width: 80vw;
 }
 
 .block__three_divs {
@@ -230,6 +247,7 @@ table {
 .block__neler_yapıyoruz {
   background-color: #242424;
   color: white;
+  font-family: "Patron";
 }
 
 .block__neler_yapıyoruz_divs {
@@ -237,12 +255,14 @@ table {
   color: white;
   display: flex;
   flex-wrap: wrap;
+  font-family: "Patron";
   gap: 80px;
   justify-content: space-evenly;
 }
 
 .block__neler_yapıyoruz_div {
   width: 400px;
+  font-family: "Patron";
 }
 
 .block__neler_yapıyoruz_div .number {
@@ -251,6 +271,7 @@ table {
   width: 34px;
   display: grid;
   place-items: center;
+  font-family: "Patron";
   font-size: 20px;
   border-radius: 0px;
   font-size: 25px;
@@ -288,6 +309,7 @@ table {
 .block__partner .div-1 {
   background-color: #1a1a1a;
   font-size: 18px;
+
   width: 300px;
   color: rgb(255, 255, 255, 0.4);
   position: absolute;
@@ -391,6 +413,14 @@ table {
   font-size: 18px;
 }
 
+.block__features .feature:hover img {
+  color: white;
+}
+
+.block__features .feature:hover p {
+  color: white;
+}
+
 .block__features .daha_fazlasi {
   position: absolute;
   right: 20%;
@@ -460,8 +490,9 @@ table {
 .block__form_div {
   background: linear-gradient(180deg, #242424 0%, #1a1a1a 100%);
   border-radius: 18px;
-  padding: 25px;
+  padding: 80px 25px;
   margin: 0 auto;
+  margin-top: 100px;
 }
 
 .block__form_div input {
@@ -469,8 +500,8 @@ table {
   border: 0;
   padding: 10px;
   border-bottom: 2px solid #515151;
-  width: auto;
   outline: 0;
+  color: #c6c6c6;
 }
 
 .block__form_div .gap-3 {
@@ -506,20 +537,61 @@ table {
 
 .footer_div {
   color: white;
+  position: relative;
   margin-top: 40px;
 }
 
 .footer_div .d-flex div p {
   padding: 5px 0;
+  font-size: 12px;
 }
 
 .weird_icon {
-  z-index: 1;
+  z-index: -1;
   position: absolute;
-  width: 40vw;
-  max-width: 358px;
-  left: 90px;
-  margin-bottom: 200px;
+  width: 45vw;
+  max-width: 458px;
+  opacity: 0.4;
+  left: 14%;
+  bottom: 72px;
+}
+
+.up_button {
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  background: #2b2b2b;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  display: grid;
+  place-items: center;
+}
+
+.toggle_fixed_div {
+  position: fixed;
+  width: 100%;
+  top: 76px;
+  height: calc(100vh - 76px);
+  z-index: 10;
+  background-color: #212121;
+  color: white;
+  padding: 60px;
+  display: none;
+}
+
+.toggle_fixed_div button {
+  margin: 10px 0;
+  scale: 1.1;
+}
+
+.toggle_fixed_div p {
+  font-family: "Patron-Bold";
+  padding: 10px 0;
+}
+
+.bar_icon {
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 767px) {
@@ -546,5 +618,35 @@ table {
   }
   .uygulama_gelistirme_text {
     width: auto;
+  }
+}
+
+@media only screen and (max-width: 498px) {
+  .block__wave img {
+    display: none;
+  }
+  .block__three_divs {
+    margin-top: 40px;
+  }
+  .block__partner_img {
+    display: none;
+  }
+  .block__partner {
+    border: 0;
+  }
+  .block__partner .div-1 {
+    position: relative;
+  }
+  .block__partner .div-2 {
+    position: relative;
+  }
+  .block__features {
+    margin-top: 150px !important;
+  }
+  .uygulama_gelistirme_text {
+    width: auto;
+  }
+  .input_spread {
+    width: 100%;
   }
 }

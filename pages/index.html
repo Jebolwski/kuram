@@ -14,7 +14,7 @@
   </head>
   <body>
     <header class="top_header">
-      <div class="container-fluid px-0 px-md-4">
+      <div class="container-fluid d-none d-xl-block px-0 px-md-4">
         <div class="row align-items-center">
           <div class="col-auto">
             <img src="../assets/svgs/kuram_icon.svg" alt="" />
@@ -28,10 +28,24 @@
               <button class="top_header__lets_talk ms-4">Let’s Talk</button>
               <p class="ms-4" style="color: #9b9b9b">|</p>
               <div class="d-flex align-items-center ms-4">
-                <p class="me-1" style="color: #9b9b9b">ENGLISH</p>
+                <p
+                  class="me-1"
+                  style="color: #9b9b9b; font-family: Patron-Bold"
+                >
+                  ENGLISH
+                </p>
                 <img src="../assets/svgs/down_arrow.svg" alt="" />
               </div>
-              <p style="color: #9b9b9b; font-size: 15px" class="ms-4">Destek</p>
+              <p
+                style="
+                  color: #9b9b9b;
+                  font-size: 15px;
+                  font-family: Patron-MediumItalic;
+                "
+                class="ms-4"
+              >
+                Destek
+              </p>
             </div>
           </div>
           <div class="col-auto">
@@ -42,13 +56,55 @@
           </div>
         </div>
       </div>
+      <div
+        class="container-fluid d-block d-xl-none position-fixed top-0"
+        style="background-color: #212121; z-index: 100"
+      >
+        <div class="row align-items-center justify-content-between">
+          <div class="col-auto">
+            <img src="../assets/svgs/kuram_icon.svg" alt="" />
+          </div>
+
+          <div class="col-auto bar_icon">
+            <i class="fa-solid fa-bars-staggered fa-xl text-white"></i>
+          </div>
+        </div>
+      </div>
     </header>
+
+    <div class="toggle_fixed_div">
+      <p>ANA SAYFA</p>
+      <p>HİZMETLERİMİZ</p>
+      <p>ÜRÜNLERİMİZ</p>
+      <p>HAKKIMIZDA</p>
+      <button class="top_header__lets_talk">Let’s Talk</button>
+      <div class="d-flex align-items-center">
+        <p class="me-1" style="color: #9b9b9b; font-family: Patron-Bold">
+          ENGLISH
+        </p>
+        <img src="../assets/svgs/down_arrow.svg" alt="" />
+      </div>
+      <p
+        style="
+          color: #9b9b9b;
+          font-size: 15px;
+          font-family: Patron-MediumItalic;
+        "
+      >
+        Destek
+      </p>
+      <div class="d-flex align-items-center">
+        <p style="color: #0873ba" class="me-2">Createrun</p>
+        <img src="../assets/svgs/arrow_tilted.svg" />
+      </div>
+    </div>
+
     <div class="block">
       <div class="block__kuramsoft">KURAMSOFT</div>
       <div class="row justify-content-center">
         <div
           class="col-10 col-md-8 col-lg-6 text-center text-white mt-4"
-          style="font-size: 40px"
+          style="font-size: 40px; font-family: Patron; font-weight: 300"
         >
           Imply, founded by the original creators of Apache Druid®, develops an
           innovative database purpose-built for modern analytics applications.
@@ -57,7 +113,7 @@
 
       <div class="block__wave mt-5">
         <div class="text-center">
-          <img src="../assets/svgs/wave_background.svg" alt="" />
+          <img src="../assets/svgs/wave_background.svg" class="col-9" />
         </div>
       </div>
 
@@ -94,15 +150,18 @@
         </div>
       </div>
 
-      <div class="block__neler_yapıyoruz_parent mt-5">
-        <div class="container-fluid">
+      <div class="container-fluid px-0 px-md-4 mt-5">
+        <div class="block__neler_yapıyoruz_parent">
           <div class="block__neler_yapıyoruz p-5">
-            <h4 class="fw-light text-center" style="font-size: 30px">
+            <h4
+              class="fw-light text-center"
+              style="font-size: 30px; font-weight: 200; font-family: Patron"
+            >
               Neler Yapıyoruz
             </h4>
             <div class="row align-items-center">
-              <div class="col-auto">
-                <div class="d-flex align-items-center">
+              <div class="col-auto d-none d-md-block">
+                <div class="d-flex align-items-center" style="cursor: pointer">
                   <p>Daha fazlası</p>
                   <img src="../assets/svgs/arrow_right.svg" class="ms-2" />
                 </div>
@@ -122,7 +181,10 @@
                         save money? Looking for a custom-built app for your
                         community? We can help.
                       </p>
-                      <div class="d-flex align-items-center mt-3">
+                      <div
+                        class="d-flex align-items-center mt-3"
+                        style="cursor: pointer"
+                      >
                         <p class="detay me-2">DETAY</p>
                         <img
                           src="../assets/svgs/arrow_right.svg"
@@ -146,7 +208,10 @@
                         a team with the resources and industry expertise to take
                         the reins and move your project forward.
                       </p>
-                      <div class="d-flex align-items-center mt-3">
+                      <div
+                        class="d-flex align-items-center mt-3"
+                        style="cursor: pointer"
+                      >
                         <p class="detay me-2">DETAY</p>
                         <img
                           src="../assets/svgs/arrow_right.svg"
@@ -174,7 +239,10 @@
                         save money? Looking for a custom-built app for your
                         community? We can help.
                       </p>
-                      <div class="d-flex align-items-center mt-3">
+                      <div
+                        class="d-flex align-items-center mt-3"
+                        style="cursor: pointer"
+                      >
                         <p class="detay me-2">DETAY</p>
                         <img
                           src="../assets/svgs/arrow_right.svg"
@@ -198,7 +266,10 @@
                         projects to achieve 3000+ releases – with each solving a
                         unique business need.
                       </p>
-                      <div class="d-flex align-items-center mt-3">
+                      <div
+                        class="d-flex align-items-center mt-3"
+                        style="cursor: pointer"
+                      >
                         <p class="detay me-2">DETAY</p>
                         <img
                           src="../assets/svgs/arrow_right.svg"
@@ -289,12 +360,16 @@
         </div>
       </div>
 
-      <div class="container-fluid mt-5">
+      <div class="container-fluid" style="margin-top: 180px">
         <div class="block__features">
           <div class="row justify-content-center">
             <div
-              class="col-10 col-md-8 col-lg-3 text-white fw-light text-center"
-              style="font-size: 30px"
+              class="col-10 col-md-8 col-lg-4 text-white text-center"
+              style="
+                font-size: 30px;
+                font-family: Patron-Medium;
+                font-weight: 200;
+              "
             >
               Sektörün liderleri
               <span style="color: #0b5f97; font-weight: 600">Kuramsoft’a</span>
@@ -409,7 +484,10 @@
               </div>
             </div>
           </div>
-          <div class="d-flex align-items-center daha_fazlasi">
+          <div
+            class="d-flex align-items-center daha_fazlasi"
+            style="cursor: pointer"
+          >
             <p class="me-3">Daha fazlası</p>
             <svg
               width="30"
@@ -469,7 +547,10 @@
                   original scope, they'd still find a way to make it work
                   without having to reassess or change orders.
                 </p>
-                <div class="d-flex align-items-center mt-5">
+                <div
+                  class="d-flex align-items-center mt-5"
+                  style="cursor: pointer"
+                >
                   <p style="font-size: 14px; color: #acacac" class="me-2">
                     Daha Fazlası
                   </p>
@@ -531,8 +612,8 @@
         </div>
       </div>
 
-      <div class="block__form_div mt-5">
-        <div class="container-fluid">
+      <div class="container-fluid px-0 px-md-4">
+        <div class="block__form_div">
           <div class="top">
             <div
               class="d-flex flex-wrap align-items-center justify-content-evenly gap-2"
@@ -550,7 +631,10 @@
                   <p style="font-size: 15px" class="mt-2">
                     Our experts can help you find the right solution.
                   </p>
-                  <div class="d-flex gap-2 align-items-center mt-4">
+                  <div
+                    class="d-flex gap-2 align-items-center mt-4"
+                    style="cursor: pointer"
+                  >
                     <p style="font-size: 14px">Daha Fazlası</p>
                     <img src="../assets/svgs/arrow_right.svg" alt="" />
                   </div>
@@ -570,7 +654,10 @@
                     Get started now with a free 30 free trial, no credit card,
                     no commitment required.
                   </p>
-                  <div class="d-flex gap-2 align-items-center mt-4">
+                  <div
+                    class="d-flex gap-2 align-items-center mt-4"
+                    style="cursor: pointer"
+                  >
                     <p style="font-size: 14px">Daha Fazlası</p>
                     <img src="../assets/svgs/arrow_right.svg" alt="" />
                   </div>
@@ -589,7 +676,10 @@
                   <p style="font-size: 15px" class="mt-2">
                     Run it yourself on-premises or in the public cloud.
                   </p>
-                  <div class="d-flex gap-2 align-items-center mt-4">
+                  <div
+                    class="d-flex gap-2 align-items-center mt-4"
+                    style="cursor: pointer"
+                  >
                     <p style="font-size: 14px">Daha Fazlası</p>
                     <img src="../assets/svgs/arrow_right.svg" alt="" />
                   </div>
@@ -601,7 +691,7 @@
           <div class="bottom mt-5">
             <div class="container px-0 px-md-5">
               <img src="../assets/svgs/computer.svg" />
-              <p class="mt-4" style="width: 428px">
+              <p class="mt-4" style="max-width: 428px">
                 <span style="font-size: 24px">Request a Demo</span>
                 <br />
                 <br />
@@ -612,24 +702,44 @@
               <div class="d-flex flex-wrap form__inputs gap-4 mt-4">
                 <div>
                   <div class="d-flex gap-2 flex-wrap">
-                    <input type="text" placeholder="Adınız" />
-                    <input type="text" placeholder="Soyadınız" />
+                    <input
+                      type="text"
+                      placeholder="Adınız"
+                      class="input_spread"
+                    />
+                    <input
+                      type="text"
+                      placeholder="Soyadınız"
+                      class="input_spread"
+                    />
                   </div>
-                  <input type="text" placeholder="Adres" />
+                  <input type="text" placeholder="Adres" style="width: 100%" />
                   <br />
-                  <input type="text" placeholder="İlçe" />
+                  <input type="text" placeholder="İlçe" style="width: 100%" />
                 </div>
                 <div>
                   <div class="d-flex gap-2 flex-wrap">
-                    <input type="text" placeholder="E-posta" />
-                    <input type="text" placeholder="Gsm no" />
+                    <input
+                      type="text"
+                      placeholder="E-posta"
+                      class="input_spread"
+                    />
+                    <input
+                      type="text"
+                      placeholder="Gsm no"
+                      class="input_spread"
+                    />
                   </div>
                   <div class="d-flex gap-2 flex-wrap">
-                    <input type="text" placeholder="İlçe" />
-                    <input type="text" placeholder="İl" />
+                    <input
+                      type="text"
+                      placeholder="İlçe"
+                      class="input_spread"
+                    />
+                    <input type="text" placeholder="İl" class="input_spread" />
                   </div>
 
-                  <input type="text" placeholder="İlçe" />
+                  <input type="text" placeholder="İlçe" style="width: 100%" />
                 </div>
               </div>
               <div class="d-flex gap-3 align-items-center mt-5">
@@ -646,9 +756,8 @@
       </div>
     </div>
 
-    <img src="../assets/svgs/weird_design.svg" class="weird_icon" />
-
-    <footer class="footer_div container-fluid container-md">
+    <footer class="footer_div container-fluid">
+      <img src="../assets/svgs/weird_design.svg" class="weird_icon" />
       <div class="d-flex flex-wrap justify-content-center gap-5">
         <img
           src="../assets/svgs/kuram_icon.svg"
@@ -700,12 +809,60 @@
           <p>Press Releases</p>
         </div>
       </div>
+      <div class="container">
+        <div class="up_button" style="margin-top: 120px">
+          <svg
+            width="15"
+            height="17"
+            viewBox="0 0 15 17"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M0.488436 8.38675C1.13965 9.03771 2.19417 9.03771 2.84513 8.38675L5.54178 5.68985L5.54178 15.0002C5.54178 15.9215 6.28852 16.667 7.2086 16.667C8.12868 16.667 8.87543 15.9215 8.87543 15.0002L8.87542 5.6901L11.5721 8.387C12.2233 9.03796 13.2778 9.03796 13.9288 8.387C14.5797 7.73678 14.5797 6.68002 13.9288 6.0303L8.38882 0.490347C8.23443 0.336209 8.04887 0.21275 7.84211 0.126952C7.83413 0.123461 7.8254 0.122462 7.81642 0.118971C7.62711 0.044396 7.42409 6.11339e-07 7.2086 6.30177e-07C6.99311 6.49016e-07 6.78984 0.0443961 6.60078 0.118722C6.59205 0.122214 6.58407 0.123212 6.57534 0.126702C6.36958 0.211005 6.18401 0.334464 6.02838 0.490098L0.488436 6.03005C-0.16278 6.68002 -0.16278 7.73553 0.488436 8.38675Z"
+              fill="#929292"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="container px-0 px-md-5">
+        <div
+          class="d-flex align-items-center flex-wrap gap-4"
+          style="font-size: 12px"
+        >
+          <div class="d-flex gap-1">
+            <p>ENGLISH</p>
+            <img src="../assets/svgs/down_arrow.svg" style="width: 14px" />
+          </div>
+          <p class="ms-5">Also of Interest</p>
+          <p>Pivot SQL</p>
+          <p>Apache Druid</p>
+          <p>®Kuramsoft Analysis – An Open Source Architecture</p>
+        </div>
+      </div>
     </footer>
 
     <script src="../assets/bootstrap-5.2.1/js/bootstrap.min.js"></script>
     <script src="../assets/fontawesome-6.2.0/js/all.min.js"></script>
     <script src="../assets/jquery/jquery.js"></script>
     <script src="../assets/js/script.js"></script>
-    <script></script>
+    <script>
+      $(".up_button").click(function () {
+        $(window.scrollTo(0, 0));
+      });
+
+      $(window).resize(function () {
+        if ($(window).width() > 1200) {
+          $(".toggle_fixed_div").hide();
+        }
+      });
+
+      $(".bar_icon").click(function () {
+        console.log("sadsa");
+        $(".toggle_fixed_div").toggle(300);
+      });
+    </script>
   </body>
 </html>
