@@ -416,6 +416,10 @@ table {
   padding-bottom: 140px;
 }
 
+.block__features .feature {
+  cursor: pointer;
+}
+
 .block__features .feature p {
   width: 129px;
   font-family: "Patron";

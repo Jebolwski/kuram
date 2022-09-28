@@ -216,6 +216,10 @@
   color: white;
 }
 
+.temel_moduller p {
+  font-family: "Patron";
+}
+
 .temel_moduller .number {
   font-family: "Patron";
   font-size: 20px;

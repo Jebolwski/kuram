@@ -227,6 +227,15 @@
   z-index: 1000 !important;
 }
 
+.bottom_div p {
+  font-family: "Patron";
+  font-size: 20px;
+}
+
+.lets_talk p {
+  font-size: 16px;
+}
+
 @media only screen and (max-width: 767px) {
   .serial_div_1 .bottom_div {
     padding: 60px;
