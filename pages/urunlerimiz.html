@@ -18,14 +18,14 @@
       <div class="container-fluid d-none d-xl-block px-0 px-md-4">
         <div class="row align-items-center">
           <div class="col-auto">
-            <img src="../assets/svgs/kuram_icon.svg" />
+            <img src="../assets/svgs/kuram_icon.svg" alt="" />
           </div>
           <div class="col">
             <div class="d-flex justify-content-center align-items-center">
-              <p>ANA SAYFA</p>
-              <p class="ms-4">HİZMETLERİMİZ</p>
-              <p class="ms-4">ÜRÜNLERİMİZ</p>
-              <p class="ms-4">HAKKIMIZDA</p>
+              <a href="../pages/index.html">ANA SAYFA</a>
+              <a href="../pages/landing.html" class="ms-4">HİZMETLERİMİZ</a>
+              <a href="../pages/urunlerimiz.html" class="ms-4">ÜRÜNLERİMİZ</a>
+              <a href="../pages/hakkimizda.html" class="ms-4">HAKKIMIZDA</a>
               <button class="top_header__lets_talk ms-4">Let’s Talk</button>
               <p class="ms-4" style="color: #9b9b9b">|</p>
               <div class="d-flex align-items-center ms-4">
@@ -35,7 +35,7 @@
                 >
                   ENGLISH
                 </p>
-                <img src="../assets/svgs/down_arrow.svg" />
+                <img src="../assets/svgs/down_arrow.svg" alt="" />
               </div>
               <p
                 style="
@@ -63,7 +63,7 @@
       >
         <div class="row align-items-center justify-content-between">
           <div class="col-auto">
-            <img src="../assets/svgs/kuram_icon.svg" />
+            <img src="../assets/svgs/kuram_icon.svg" alt="" />
           </div>
 
           <div class="col-auto bar_icon">
@@ -80,7 +80,7 @@
       >
         <div class="row align-items-center justify-content-between">
           <div class="col-auto">
-            <img src="../assets/svgs/kuram_icon.svg" />
+            <img src="../assets/svgs/kuram_icon.svg" alt="" />
           </div>
 
           <div class="col-auto bar_icon">
@@ -89,27 +89,36 @@
         </div>
       </div>
       <div style="padding: 60px">
-        <p>ANA SAYFA</p>
-        <p>HİZMETLERİMİZ</p>
-        <p>ÜRÜNLERİMİZ</p>
-        <p>HAKKIMIZDA</p>
-        <button class="top_header__lets_talk">Let’s Talk</button>
-        <div class="d-flex align-items-center">
+        <div class="py-3">
+          <a href="../pages/index.html">ANA SAYFA</a>
+        </div>
+        <div class="py-3">
+          <a href="../pages/landing.html">HİZMETLERİMİZ</a>
+        </div>
+        <div class="py-3">
+          <a href="../pages/urunlerimiz.html">ÜRÜNLERİMİZ</a>
+        </div>
+        <div class="py-3">
+          <a href="../pages/hakkimizda.html">HAKKIMIZDA</a>
+        </div>
+        <button class="top_header__lets_talk my-3">Let’s Talk</button>
+        <div class="d-flex align-items-center my-3">
           <p class="me-1" style="color: #9b9b9b; font-family: Patron-Bold">
             ENGLISH
           </p>
-          <img src="../assets/svgs/down_arrow.svg" />
+          <img src="../assets/svgs/down_arrow.svg" alt="" />
         </div>
         <p
           style="
             color: #9b9b9b;
             font-size: 15px;
             font-family: Patron-MediumItalic;
+            margin: 28px 0;
           "
         >
           Destek
         </p>
-        <div class="d-flex align-items-center">
+        <div class="d-flex align-items-center my-4">
           <p style="color: #0873ba" class="me-2">Createrun</p>
           <img src="../assets/svgs/arrow_tilted.svg" />
         </div>
@@ -119,7 +128,7 @@
     <div class="block">
       <div class="block__roadmap">
         <div class="d-flex align-items-center justify-content-center gap-3">
-          <div class="item">ANA SAYFA</div>
+          <a href="../pages/index.html" class="item">ANA SAYFA</a>
           <div class="right_icon">
             <svg
               width="8"
@@ -134,12 +143,18 @@
               />
             </svg>
           </div>
-          <div class="item" style="background-color: #2f2f2f">ÜRÜNLERİMİZ</div>
+          <a
+            href="../pages/urunlerimiz.html"
+            class="item"
+            style="background-color: #2f2f2f"
+            >ÜRÜNLERİMİZ</a
+          >
         </div>
       </div>
       <div class="main_text row justify-content-center mt-5">
         <div class="col-10 col-md-8 col-lg-5">
-          Createrun RAD & <span class="text-nowrap"> Low-Code Platformu </span>
+          Createrun RAD & <br />
+          <span> Low-Code Platformu </span>
         </div>
       </div>
       <div class="second_text row justify-content-center mt-5">
@@ -170,7 +185,6 @@
         <div class="col-auto">
           <div class="block__graph">
             <img src="../assets/svgs/urunlerimiz_graph.svg" />
-            <div></div>
           </div>
         </div>
       </div>
@@ -296,9 +310,12 @@
           <div
             class="three_divs d-flex justify-content-around flex-wrap gap-2 d-none d-lg-flex"
           >
-            <div class="div_1">
+            <div class="div_1 active">
               <div class="icon">
                 <img src="../assets/svgs/urunlerimiz_divs_div_1.svg" alt="" />
+              </div>
+              <div class="blue_dot">
+                <img src="../assets/svgs/blue_dot.svg" />
               </div>
               <div class="header">OnPreme İnternet ve Intranet çözümleri</div>
               <div class="desc">
@@ -313,6 +330,9 @@
             <div class="div_2">
               <div class="icon">
                 <img src="../assets/svgs/urunlerimiz_divs_div_2.svg" alt="" />
+              </div>
+              <div class="blue_dot">
+                <img src="../assets/svgs/blue_dot.svg" />
               </div>
               <div class="header">
                 Yüksek performanslı ve güvenlikli internet çözümleri
@@ -330,6 +350,9 @@
               <div class="icon">
                 <img src="../assets/svgs/urunlerimiz_divs_div_3.svg" alt="" />
               </div>
+              <div class="blue_dot">
+                <img src="../assets/svgs/blue_dot.svg" />
+              </div>
               <div class="header">WAF alt yapısı</div>
               <div class="desc">
                 Want to use your data to learn more about your customers? Trying
@@ -345,9 +368,12 @@
         <div
           class="three_divs d-flex justify-content-around flex-wrap gap-4 d-flex d-lg-none"
         >
-          <div class="div_1">
+          <div class="div_1 active">
             <div class="icon">
               <img src="../assets/svgs/urunlerimiz_divs_div_1.svg" alt="" />
+            </div>
+            <div class="blue_dot">
+              <img src="../assets/svgs/blue_dot.svg" />
             </div>
             <div class="header">OnPreme İnternet ve Intranet çözümleri</div>
             <div class="desc">
@@ -362,6 +388,9 @@
           <div class="div_2">
             <div class="icon">
               <img src="../assets/svgs/urunlerimiz_divs_div_2.svg" alt="" />
+            </div>
+            <div class="blue_dot">
+              <img src="../assets/svgs/blue_dot.svg" />
             </div>
             <div class="header">
               Yüksek performanslı ve güvenlikli internet çözümleri
@@ -378,6 +407,9 @@
           <div class="div_3">
             <div class="icon">
               <img src="../assets/svgs/urunlerimiz_divs_div_3.svg" alt="" />
+            </div>
+            <div class="blue_dot">
+              <img src="../assets/svgs/blue_dot.svg" />
             </div>
             <div class="header">WAF alt yapısı</div>
             <div class="desc">
@@ -422,7 +454,10 @@
           </div>
         </div>
         <div class="temel_moduller">
-          <h5 style="font-family: Patron; font-size: 19px" class="text-center">
+          <h5
+            style="font-family: Patron; font-size: 19px"
+            class="text-center ps-5 ms-4"
+          >
             TEMEL MODÜLLER
           </h5>
           <div class="row justify-content-evenly mt-5 gap-3">
@@ -543,57 +578,69 @@
     </div>
 
     <footer class="footer_div">
-      <div class="contanier-fluid">
+      <div class="contanier">
         <img src="../assets/svgs/weird_design.svg" class="weird_icon" />
-        <div class="d-flex flex-wrap justify-content-center gap-5">
-          <img
-            src="../assets/svgs/kuram_icon.svg"
-            style="height: 84px; width: 186px"
-          />
-          <div class="mt-3">
-            <p>Get Started</p>
-            <p>Support</p>
+        <div class="row justify-content-center gap-5">
+          <div class="col-auto">
+            <img
+              src="../assets/svgs/kuram_icon.svg"
+              style="height: 84px; width: 186px"
+            />
           </div>
-          <div class="mt-3">
-            <p>Products</p>
-            <p>Imply Polaris</p>
-            <p>Imply Enterprise</p>
-            <p>Imply Enterprise Hybrid</p>
-            <p>Imply Pivot</p>
-            <p>Tools</p>
-            <p>Management</p>
-            <p>Monitoring</p>
+          <div class="col-auto">
+            <div class="mt-3">
+              <p>Get Started</p>
+              <p>Support</p>
+            </div>
           </div>
-          <div class="mt-3">
-            <p>Resources</p>
-            <p>Blogs</p>
-            <p>Success Stories</p>
-            <p>Documents</p>
-            <p>Videos</p>
+          <div class="col-auto">
+            <div class="mt-3">
+              <p>Products</p>
+              <p>Imply Polaris</p>
+              <p>Imply Enterprise</p>
+              <p>Imply Enterprise Hybrid</p>
+              <p>Imply Pivot</p>
+              <p>Tools</p>
+              <p>Management</p>
+              <p>Monitoring</p>
+            </div>
           </div>
-          <div class="mt-3">
-            <p>Developer</p>
-            <p>Developers What is Druid?</p>
-            <p>Imply vs Druid</p>
-            <p>News</p>
-            <p>Help Center</p>
-            <p>Documents</p>
-            <p>Druid Community</p>
-            <p>Developer Videos</p>
-            <p>Druid Summit Videos</p>
-            <p>Druid University Videos</p>
+          <div class="col-auto">
+            <div class="mt-3">
+              <p>Resources</p>
+              <p>Blogs</p>
+              <p>Success Stories</p>
+              <p>Documents</p>
+              <p>Videos</p>
+            </div>
           </div>
-          <div class="mt-3">
-            <p>Company & Values</p>
-            <p>Company</p>
-            <p>Careers</p>
-            <p>Leadership</p>
-            <p>Contact</p>
-            <p>Values</p>
-            <p>Imployees</p>
-            <p>Partners</p>
-            <p>Newsroom</p>
-            <p>Press Releases</p>
+          <div class="col-auto">
+            <div class="mt-3">
+              <p>Developer</p>
+              <p>Developers What is Druid?</p>
+              <p>Imply vs Druid</p>
+              <p>News</p>
+              <p>Help Center</p>
+              <p>Documents</p>
+              <p>Druid Community</p>
+              <p>Developer Videos</p>
+              <p>Druid Summit Videos</p>
+              <p>Druid University Videos</p>
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="mt-3">
+              <p>Company & Values</p>
+              <p>Company</p>
+              <p>Careers</p>
+              <p>Leadership</p>
+              <p>Contact</p>
+              <p>Values</p>
+              <p>Imployees</p>
+              <p>Partners</p>
+              <p>Newsroom</p>
+              <p>Press Releases</p>
+            </div>
           </div>
         </div>
         <div class="container">
@@ -615,8 +662,8 @@
           </div>
         </div>
       </div>
-      <div class="p-3" style="background-color: #131313">
-        <div class="container bottomest">
+      <div class="p-3 bottomest">
+        <div class="container">
           <div
             class="row align-items-center justify-content-center gap-3"
             style="font-size: 12px; min-height: 64px; z-index: 1000 !important"
@@ -662,6 +709,36 @@
         console.log("sadsa");
         $(".toggle_fixed_div").toggle(300);
       });
+
+      $(".div_1").hover(
+        function () {
+          console.log("div1");
+          $(this).addClass("active");
+          $(".div_2").removeClass("active");
+          $(".div_3").removeClass("active");
+        },
+        function () {}
+      );
+
+      $(".div_2").hover(
+        function () {
+          console.log("div2");
+          $(this).addClass("active");
+          $(".div_1").removeClass("active");
+          $(".div_3").removeClass("active");
+        },
+        function () {}
+      );
+
+      $(".div_3").hover(
+        function () {
+          console.log("div3");
+          $(this).addClass("active");
+          $(".div_1").removeClass("active");
+          $(".div_2").removeClass("active");
+        },
+        function () {}
+      );
     </script>
   </body>
 </html>

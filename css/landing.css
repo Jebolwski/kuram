@@ -3,6 +3,7 @@
   border-radius: 20px;
   color: #ffffff;
   padding: 6px 12px;
+  text-decoration: none;
 }
 
 .block__roadmap {
@@ -35,7 +36,6 @@
 
 .picture_div {
   position: relative;
-  border: 1px solid #03304e;
   color: white;
   border-radius: 10px;
   max-height: 300px;
@@ -43,18 +43,10 @@
   width: 74vw;
 }
 
-.picture_div .arrow {
-  position: absolute;
-  right: 50px;
-  top: 0;
-  min-height: 50px;
-}
-
 .picture_div .image img {
   margin-top: 40px;
   max-width: 1205px;
   width: 80vw;
-  margin-left: -3vw;
 }
 
 .description_text {

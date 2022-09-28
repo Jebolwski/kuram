@@ -175,9 +175,9 @@ table {
   border: 0;
 }
 
-.top_header p {
+.top_header a {
   color: white;
-  cursor: pointer;
+  text-decoration: none;
   font-family: "Patron";
   font-size: 14px;
 }
@@ -194,7 +194,7 @@ table {
   padding-top: 30px;
 }
 
-.footer_div .d-flex div p {
+.footer_div .row div p {
   padding: 5px 0;
   font-size: 12px;
   cursor: pointer;
@@ -210,8 +210,8 @@ table {
   width: 45vw;
   max-width: 458px;
   opacity: 0.4;
-  left: 14%;
-  bottom: 63px;
+  left: 12%;
+  bottom: 53px;
 }
 
 .up_button {
@@ -242,8 +242,10 @@ table {
   scale: 1.1;
 }
 
-.toggle_fixed_div p {
+.toggle_fixed_div a {
   font-family: "Patron-Bold";
+  color: white;
+  text-decoration: none;
   padding: 10px 0;
 }
 
@@ -251,8 +253,13 @@ table {
   cursor: pointer;
 }
 
+.toggle_fixed_div .a_href {
+  padding: 20px 0;
+}
+
 .footer_div p {
   z-index: 1000 !important;
+  padding: 10px 0;
   position: relative;
 }
 
@@ -261,7 +268,9 @@ table {
 }
 
 .footer_div .bottomest {
-  z-index: 9999 !important;
+  z-index: 9999999 !important;
+  position: relative;
+  background-color: rgb(19, 19, 19);
 }
 
 @media only screen and (max-width: 767px) {
@@ -291,6 +300,9 @@ table {
   }
   .weird_icon {
     display: none;
+  }
+  .main_text div {
+    font-size: 34px;
   }
 }
 

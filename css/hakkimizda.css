@@ -8,6 +8,7 @@
   border-radius: 20px;
   color: #ffffff;
   padding: 6px 12px;
+  text-decoration: none;
 }
 
 .block__roadmap {
@@ -49,6 +50,7 @@
 
 .description_text {
   margin-top: 100px;
+  margin-bottom: 140px;
   color: white;
   font-size: 20px;
   letter-spacing: 0.035em;
