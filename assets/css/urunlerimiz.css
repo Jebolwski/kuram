@@ -1,0 +1,311 @@
+.footer_div {
+  background: #1b1b1b;
+  z-index: 999 !important;
+}
+
+.block__roadmap .item {
+  background-color: #414141;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.block__roadmap {
+  margin-top: 40px;
+}
+
+.main_text {
+  color: white;
+  font-size: 52px;
+  font-weight: 200;
+  text-align: center;
+}
+.main_text div {
+  font-family: "PlusJakartaMedium";
+}
+.main_text span {
+  font-family: "PlusJakartaBold";
+  font-weight: 700;
+  background: -webkit-linear-gradient(0deg, #0873ba 4.93%, #00f9f9 98.47%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.demo_talebi {
+  background: #0873bb;
+  width: fit-content;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.sitesinde_gor {
+  background: transparent;
+  width: fit-content;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.block__graph {
+  position: relative;
+}
+
+.block__graph img {
+  max-width: 70vw;
+}
+
+.block__features {
+  color: white;
+}
+
+.block__features_divs {
+  display: flex;
+  margin-top: 80px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 80px;
+}
+
+.block__feature_div {
+  max-width: 360px;
+}
+
+.block__feature_div .line {
+  width: 1px;
+  height: 100px;
+  margin-top: 8px;
+  margin-left: 10px;
+  background-color: #3a3a3a;
+}
+
+.block__feature_div .number {
+  font-size: 15px;
+  font-family: "Patron";
+}
+
+.block__feature_div .header {
+  font-family: "Patron";
+  font-size: 22px;
+}
+
+.block__feature_div .desc {
+  font-family: "Patron";
+  color: #d8d8d8;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.block__kuramportal {
+  background-color: #1b1b1b;
+  margin-top: 50px;
+  border-radius: 18px;
+  max-height: 550px;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.block__kuramportal h3 {
+  color: white;
+  position: relative;
+  font-size: 40px;
+  text-align: center;
+  font-family: "PlusJakartaMedium";
+  background-color: #1b1b1b;
+}
+
+.three_divs {
+  margin-top: 120px;
+}
+
+.three_divs .header {
+  font-family: "PlusJakartaMedium";
+  font-size: 17px;
+  color: white;
+  padding: 0 20px;
+  font-weight: 400;
+}
+
+.three_divs .desc {
+  font-family: "Patron";
+  padding: 0 20px;
+  font-size: 13px;
+  color: #e9e9e9;
+  margin-top: 28px;
+  text-align: left;
+}
+
+.three_divs .icon {
+  margin-bottom: 20px;
+  padding: 0 20px;
+  padding-top: 20px;
+}
+
+.div_1 .img {
+  position: absolute;
+  bottom: -20px;
+  left: -1px;
+}
+
+.div_2 .img {
+  position: absolute;
+  bottom: -20px;
+  left: -1px;
+}
+
+.div_3 .img {
+  position: absolute;
+  bottom: -20px;
+  left: -1px;
+}
+
+.three_divs .active {
+  border: 1px solid #a3a3a3 !important;
+}
+
+.three_divs .div_1 {
+  height: 406px;
+  width: 279px;
+  border-radius: 10px;
+  position: relative;
+  background: #1b1b1b;
+  border: 1px solid #424242;
+}
+
+.three_divs .div_2 {
+  height: 406px;
+  width: 279px;
+  border-radius: 10px;
+  background: #1b1b1b;
+  position: relative;
+  border: 1px solid #424242;
+}
+
+.three_divs .div_3 {
+  height: 406px;
+  width: 279px;
+  border-radius: 10px;
+  background: #1b1b1b;
+  position: relative;
+  border: 1px solid #424242;
+}
+
+.erp_crm {
+  color: white;
+  margin-top: 260px;
+}
+
+.erp_crm h4 {
+  font-family: "PlusJakartaMEdium";
+  font-size: 42px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.erp_crm .desc {
+  color: #ededed;
+  margin-top: 20px;
+  font-family: "Patron";
+  font-size: 22px;
+  text-align: center;
+}
+
+.temel_moduller {
+  margin-top: 40px;
+  color: white;
+}
+
+.temel_moduller p {
+  font-family: "Patron";
+}
+
+.temel_moduller .number {
+  font-family: "Patron";
+  font-size: 20px;
+}
+
+.temel_moduller .div {
+  margin-bottom: 20px;
+  font-family: "Patron";
+  max-width: 330px;
+}
+
+.div .texts {
+  padding-left: 10px;
+  border-left: 1px solid #393939;
+}
+
+.div .number {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+.div .header {
+  padding-bottom: 10px;
+}
+
+.block__waf {
+  background-color: #1b1b1b;
+  border-radius: 18px;
+  position: relative;
+  padding: 40px 20px;
+  color: white;
+  z-index: 9999 !important;
+}
+
+.block__waf h5 {
+  font-family: "PlusJakartaMedium";
+  font-size: 50px;
+  text-align: center;
+}
+
+.block__waf .row .col-10 {
+  font-family: "Patron";
+  font-size: 22px;
+  text-align: center;
+}
+
+.block__waf .dots {
+  position: absolute;
+  left: -100px;
+  top: 100px;
+  max-width: 200px;
+}
+
+.div_1 .blue_dot {
+  position: absolute;
+  left: -15px;
+  scale: 0.8;
+  top: 180px;
+}
+
+.div_2 .blue_dot {
+  position: absolute;
+  scale: 0.8;
+  right: -15px;
+  top: 30px;
+}
+
+.div_3 .blue_dot {
+  position: absolute;
+  right: -15px;
+  scale: 0.8;
+  top: 150px;
+}
+
+@media only screen and (max-width: 1999px) {
+  .block__kuramportal {
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .block__graph img {
+    max-width: 90vw;
+  }
+
+  .erp_crm {
+    margin-top: 60px;
+  }
+}

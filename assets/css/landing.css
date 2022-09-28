@@ -1,0 +1,73 @@
+.block__roadmap .item {
+  background-color: #414141;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.block__roadmap {
+  margin-top: 40px;
+}
+
+.title svg {
+  margin-left: 10%;
+  margin-bottom: 10px;
+}
+
+.title p {
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  color: #0391ef;
+}
+
+.desc {
+  font-size: 21px;
+  color: white;
+  font-weight: 200;
+  text-align: center;
+}
+
+.picture_div_parent {
+  display: grid;
+  place-items: center;
+}
+
+.picture_div {
+  position: relative;
+  color: white;
+  border-radius: 10px;
+  max-height: 300px;
+  max-width: 1215px;
+  width: 74vw;
+}
+
+.picture_div .image img {
+  margin-top: 40px;
+  max-width: 1205px;
+  width: 80vw;
+}
+
+.description_text {
+  margin-top: 200px;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.035em;
+}
+
+.description_text p {
+  font-family: "Patron";
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.footer_div {
+  background: #1b1b1b;
+}
+
+@media only screen and (max-width: 575px) {
+  .description_text {
+    margin-top: 25px;
+  }
+}

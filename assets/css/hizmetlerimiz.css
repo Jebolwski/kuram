@@ -1,0 +1,256 @@
+.block__hizmetlerimiz {
+  padding: 10px;
+  width: 120px;
+  border-radius: 20px;
+  background: #0873ba;
+  display: grid;
+  place-items: center;
+  color: white;
+  font-family: Patron;
+  margin: 50px auto;
+  font-size: 12px;
+}
+
+.block__main_text {
+  font-family: Patron;
+  font-size: 40px;
+  color: white;
+}
+
+.serial_divs {
+  margin-top: 80px;
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
+.serial_div_1 {
+  position: relative;
+  background: linear-gradient(#212121 0 0) padding-box,
+    linear-gradient(180deg, #373737 0%, #0d6cab 100%) border-box;
+  padding: 10px;
+  border: 5px solid transparent;
+  display: inline-block;
+  margin: 40px 0;
+  border-width: 2px;
+  border-radius: 10px !important;
+  border-style: solid;
+  max-width: 958px;
+  color: white;
+}
+
+.serial_div_1 .top_div {
+  max-width: 300px;
+  margin-left: 50px;
+  font-family: "PlusJakartaMedium";
+  margin-top: -15px;
+  background: #1d1d1d;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.serial_div_1 .bottom_div {
+  max-width: 968px;
+  margin-left: -50px;
+  background: #181818;
+  padding: 60px 150px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.serial_div_1 img {
+  position: absolute;
+  left: -120px;
+  top: 100px;
+  max-width: 204px;
+}
+
+.serial_div_2 {
+  position: relative;
+  background: linear-gradient(#212121 0 0) padding-box,
+    linear-gradient(180deg, #373737 0%, #0d6cab 100%) border-box;
+  padding: 10px;
+  border: 5px solid transparent;
+  display: inline-block;
+  margin: 40px 0;
+  border-width: 2px;
+  border-radius: 10px !important;
+  border-style: solid;
+  max-width: 958px;
+  color: white;
+}
+
+.serial_div_2 .top_div {
+  max-width: 300px;
+  margin-left: 50px;
+  margin-top: -15px;
+  font-family: "PlusJakartaMedium";
+  background: #012844;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.serial_div_2 .bottom_div {
+  max-width: 968px;
+  margin-left: -50px;
+  background: #001c2f;
+  padding: 60px 150px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.serial_div_2 img {
+  position: absolute;
+  right: -120px;
+  top: 58px;
+  max-width: 180px;
+}
+
+.serial_div_3 {
+  position: relative;
+  background: linear-gradient(#212121 0 0) padding-box,
+    linear-gradient(180deg, #373737 0%, #0d6cab 100%) border-box;
+  padding: 10px;
+  border: 5px solid transparent;
+  display: inline-block;
+  margin: 40px 0;
+  border-width: 2px;
+  border-radius: 10px !important;
+  border-style: solid;
+  max-width: 958px;
+  color: white;
+}
+
+.serial_div_3 .top_div {
+  max-width: 300px;
+  margin-left: 50px;
+  margin-top: -15px;
+  font-family: "PlusJakartaMedium";
+  background-color: #1d1d1d;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.serial_div_3 .bottom_div {
+  max-width: 968px;
+  margin-left: -50px;
+  background: #181818;
+  padding: 60px 150px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.serial_div_3 img {
+  position: absolute;
+  left: -120px;
+  top: 85px;
+  max-width: 160px;
+}
+
+.serial_div_4 {
+  position: relative;
+  background: linear-gradient(#212121 0 0) padding-box,
+    linear-gradient(180deg, #373737 0%, #0d6cab 100%) border-box;
+  padding: 10px;
+  border: 5px solid transparent;
+  display: inline-block;
+  margin: 40px 0;
+  border-width: 2px;
+  border-radius: 10px !important;
+  border-style: solid;
+  max-width: 958px;
+  color: white;
+}
+
+.serial_div_4 .top_div {
+  max-width: 300px;
+  margin-left: 50px;
+  margin-top: -15px;
+  font-family: "PlusJakartaMedium";
+  background: #012844;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: 400;
+}
+
+.serial_div_4 .bottom_div {
+  max-width: 968px;
+  margin-left: -50px;
+  background: #001c2f;
+  padding: 60px 150px;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.serial_div_4 img {
+  position: absolute;
+  right: -100px;
+  top: 80px;
+  max-width: 180px;
+}
+
+.lets_talk {
+  border: 0;
+  outline: 0;
+  border: 1px solid #4b4b4b;
+  box-shadow: 0px 0px 20px 0px #00000029;
+  background: linear-gradient(0deg, #282828, #282828),
+    linear-gradient(0deg, #4b4b4b, #4b4b4b);
+  color: #d4d4d4;
+  font-family: "Patron-Medium";
+  font-size: 15px;
+  border-radius: 100px;
+  padding: 10px 20px;
+  position: absolute;
+  left: 100px;
+  bottom: -18px;
+}
+
+.footer_div {
+  background: #1b1b1b;
+}
+
+.weird_icon {
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.footer_div p {
+  z-index: 1000 !important;
+  position: relative;
+}
+
+.footer_div img {
+  z-index: 1000 !important;
+}
+
+.bottom_div p {
+  font-family: "Patron";
+  font-size: 20px;
+}
+
+.lets_talk p {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+  .serial_div_1 .bottom_div {
+    padding: 60px;
+    margin-left: 0;
+  }
+  .serial_div_2 .bottom_div {
+    padding: 60px;
+    margin-left: 0;
+  }
+  .serial_div_3 .bottom_div {
+    padding: 60px;
+    margin-left: 0;
+  }
+  .serial_div_4 .bottom_div {
+    padding: 60px;
+    margin-left: 0;
+  }
+}

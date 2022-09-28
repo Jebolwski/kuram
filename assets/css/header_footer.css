@@ -1,0 +1,349 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  overflow-x: hidden;
+  line-height: 1;
+  background-color: #212121;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: PlusJakartaBold;
+  src: url("../fonts/PlusJakartaSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: PlusJakartaMedium;
+  src: url("../fonts/PlusJakartaSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: PlusJakartaSemiBold;
+  src: url("../fonts/PlusJakartaSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: PlusJakartaExtraBold;
+  src: url("../fonts/PlusJakartaSans-ExtraBold.ttf");
+}
+
+@font-face {
+  font-family: Patron;
+  src: url("../fonts/Patron.ttf");
+}
+
+@font-face {
+  font-family: Patron-Medium;
+  src: url("../fonts/Patron-Medium.ttf");
+}
+
+@font-face {
+  font-family: Patron-Bold;
+  src: url("../fonts/Patron-Bold.ttf");
+}
+
+@font-face {
+  font-family: Patron-MediumItalic;
+  src: url("../fonts/Patron-MediumItalic.ttf");
+}
+
+.top_header__lets_talk {
+  background: linear-gradient(180deg, #043b60 0%, #022943 100%);
+  box-shadow: 0px 0px 20px 0px #00000003;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+  font-family: "Patron-Bold";
+  line-height: 12px;
+  letter-spacing: -0.03em;
+  border: 0;
+}
+
+.top_header a {
+  color: white;
+  text-decoration: none;
+  font-family: "Patron";
+  font-size: 14px;
+}
+
+* {
+  font-family: "Patron-Medium";
+}
+
+.footer_div {
+  color: white;
+  position: relative;
+  margin-top: 40px;
+  min-height: 60px;
+  padding-top: 30px;
+}
+
+.footer_div .row div p {
+  padding: 5px 0;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.footer_div p {
+  cursor: pointer;
+}
+
+.weird_icon {
+  z-index: -1;
+  position: absolute;
+  width: 45vw;
+  max-width: 458px;
+  opacity: 0.4;
+  left: 12%;
+  bottom: 53px;
+}
+
+.up_button {
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  background: #2b2b2b;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  display: grid;
+  place-items: center;
+}
+
+.toggle_fixed_div {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  height: 100vh;
+  z-index: 10;
+  background-color: #212121;
+  color: white;
+  display: none;
+}
+
+.toggle_fixed_div button {
+  margin: 10px 0;
+  scale: 1.1;
+}
+
+.toggle_fixed_div a {
+  font-family: "Patron-Bold";
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+}
+
+.bar_icon {
+  cursor: pointer;
+}
+
+.toggle_fixed_div .a_href {
+  padding: 20px 0;
+}
+
+.footer_div p {
+  z-index: 1000 !important;
+  padding: 10px 0;
+  position: relative;
+}
+
+.footer_div img {
+  z-index: 1000 !important;
+}
+
+.footer_div .bottomest {
+  z-index: 9999999 !important;
+  position: relative;
+  background-color: rgb(19, 19, 19);
+}
+
+.demo_talebi {
+  cursor: pointer;
+}
+
+.sitesinde_gor {
+  cursor: pointer;
+}
+
+.block__roadmap .item {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 767px) {
+  .block__wave img {
+    display: none;
+  }
+  .block__three_divs {
+    margin-top: 40px;
+  }
+  .block__partner_img {
+    display: none;
+  }
+  .block__partner {
+    border: 0;
+  }
+  .block__partner .div-1 {
+    position: relative;
+  }
+  .block__partner .div-2 {
+    position: relative;
+  }
+  .block__features {
+    margin-top: 150px !important;
+  }
+  .uygulama_gelistirme_text {
+    width: auto;
+  }
+  .weird_icon {
+    display: none;
+  }
+  .main_text div {
+    font-size: 34px;
+  }
+}
+
+@media only screen and (max-width: 498px) {
+  .block__wave img {
+    display: none;
+  }
+  .block__three_divs {
+    margin-top: 40px;
+  }
+  .block__partner_img {
+    display: none;
+  }
+  .block__partner {
+    border: 0;
+  }
+  .block__partner .div-1 {
+    position: relative;
+  }
+  .block__partner .div-2 {
+    position: relative;
+  }
+  .block__features {
+    margin-top: 150px !important;
+  }
+  .uygulama_gelistirme_text {
+    width: auto;
+  }
+  .input_spread {
+    width: 100%;
+  }
+}

@@ -1,0 +1,63 @@
+.footer_div {
+  background: #1b1b1b;
+  z-index: 999 !important;
+}
+
+.block__roadmap .item {
+  background-color: #414141;
+  border-radius: 20px;
+  color: #ffffff;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.block__roadmap {
+  margin-top: 40px;
+}
+
+.main_text {
+  color: white;
+  font-size: 52px;
+  font-weight: 200;
+  text-align: center;
+}
+.main_text div {
+  font-family: "PlusJakartaMedium";
+}
+.main_text span {
+  font-family: "PlusJakartaBold";
+  font-weight: 700;
+  background: -webkit-linear-gradient(0deg, #0873ba 4.93%, #00f9f9 98.47%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.demo_talebi {
+  background: #0873bb;
+  width: fit-content;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.sitesinde_gor {
+  background: transparent;
+  width: fit-content;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.description_text {
+  margin-top: 100px;
+  margin-bottom: 140px;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.035em;
+}
+
+.description_text p {
+  font-family: "Patron";
+  font-size: 20px;
+  padding-top: 20px;
+}
