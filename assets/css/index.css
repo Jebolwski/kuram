@@ -582,6 +582,21 @@ table {
   cursor: pointer;
 }
 
+.features_items_parents {
+  display: grid;
+  place-content: center;
+}
+
+.wave_default {
+  max-width: 78vw;
+}
+.wave_zaire {
+  max-width: 78vw;
+}
+.wave_madison {
+  max-width: 78vw;
+}
+
 @media only screen and (max-width: 767px) {
   .block__wave img {
     display: none;

@@ -285,6 +285,43 @@ table {
   cursor: pointer;
 }
 
+.languages_div_1 {
+  background-color: #8b8b8b;
+  display: none;
+  border: 1px solid #464646;
+  padding: 10px;
+  border-radius: 6px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  color: white;
+  width: fit-content;
+}
+
+.languages_div_2 {
+  background-color: #8b8b8b;
+  display: none;
+  border: 1px solid #464646;
+  padding: 10px;
+  border-radius: 6px;
+  position: absolute;
+  color: white;
+  bottom: 28px;
+  left: 0px;
+  width: fit-content;
+}
+
+.languages_div_3 {
+  background-color: #8b8b8b;
+  display: none;
+  color: white;
+  border: 1px solid #464646;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 6px;
+  width: fit-content;
+}
+
 @media only screen and (max-width: 767px) {
   .block__wave img {
     display: none;

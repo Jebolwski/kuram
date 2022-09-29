@@ -31,14 +31,24 @@
               <a href="../pages/hakkimizda.html" class="ms-4">HAKKIMIZDA</a>
               <button class="top_header__lets_talk ms-4">Let’s Talk</button>
               <p class="ms-4" style="color: #9b9b9b">|</p>
-              <div class="d-flex align-items-center ms-4">
+              <div
+                class="d-flex align-items-center ms-4 position-relative"
+                onclick="languages_open()"
+              >
                 <p
                   class="me-1"
                   style="color: #9b9b9b; font-family: Patron-Bold"
                 >
                   ENGLISH
                 </p>
-                <img src="../assets/svgs/down_arrow.svg" alt="" />
+                <img
+                  src="../assets/svgs/down_arrow.svg"
+                  style="cursor: pointer"
+                />
+                <div class="languages_div_1">
+                  <p>ENGLISH</p>
+                  <p class="pt-2">TURKISH</p>
+                </div>
               </div>
               <p
                 style="
@@ -87,13 +97,13 @@
           </div>
 
           <div class="col-auto bar_icon">
-            <i class="fa-solid fa-bars-staggered fa-xl text-white"></i>
+            <i class="fa-solid fa-xmark fa-2x text-white"></i>
           </div>
         </div>
       </div>
       <div style="padding: 60px">
         <div class="py-3">
-          <a href="../index.html">ANA SAYFA</a>
+          <a href="../pages/index.html">ANA SAYFA</a>
         </div>
         <div class="py-3">
           <a href="../pages/landing.html">HİZMETLERİMİZ</a>
@@ -105,11 +115,18 @@
           <a href="../pages/hakkimizda.html">HAKKIMIZDA</a>
         </div>
         <button class="top_header__lets_talk my-3">Let’s Talk</button>
-        <div class="d-flex align-items-center my-3">
+        <div
+          class="d-flex align-items-center my-3"
+          onclick="languages_open_3()"
+        >
           <p class="me-1" style="color: #9b9b9b; font-family: Patron-Bold">
             ENGLISH
           </p>
           <img src="../assets/svgs/down_arrow.svg" alt="" />
+        </div>
+        <div class="languages_div_3">
+          <p>ENGLISH</p>
+          <p class="pt-2">TURKISH</p>
         </div>
         <p
           style="
@@ -412,6 +429,14 @@
         console.log("sadsa");
         $(".toggle_fixed_div").toggle(300);
       });
+
+      function languages_open() {
+        $(".languages_div_1").toggle(300);
+      }
+
+      function languages_open_2() {
+        $(".languages_div_2").toggle(300);
+      }
     </script>
   </body>
 </html>

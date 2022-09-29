@@ -6,8 +6,9 @@
 .block__roadmap .item {
   background-color: #414141;
   border-radius: 20px;
+  font-size: 14px;
   color: #ffffff;
-  padding: 6px 12px;
+  padding: 8px 18px;
   text-decoration: none;
 }
 
@@ -116,7 +117,7 @@
 }
 
 .three_divs {
-  margin-top: 120px;
+  margin-top: 90px;
 }
 
 .three_divs .header {
@@ -243,6 +244,7 @@
 
 .div .header {
   padding-bottom: 10px;
+  font-size: 20px;
 }
 
 .block__waf {

@@ -6,8 +6,18 @@
 .block__roadmap .item {
   background-color: #414141;
   border-radius: 20px;
+  font-size: 14px;
   color: #ffffff;
-  padding: 6px 12px;
+  padding: 8px 18px;
+  text-decoration: none;
+}
+
+.block__roadmap .item {
+  background-color: #414141;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 8px 18px;
   text-decoration: none;
 }
 

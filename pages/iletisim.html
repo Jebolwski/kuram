@@ -28,14 +28,24 @@
               <a href="../pages/hakkimizda.html" class="ms-4">HAKKIMIZDA</a>
               <button class="top_header__lets_talk ms-4">Let’s Talk</button>
               <p class="ms-4" style="color: #9b9b9b">|</p>
-              <div class="d-flex align-items-center ms-4">
+              <div
+                class="d-flex align-items-center ms-4 position-relative"
+                onclick="languages_open()"
+              >
                 <p
                   class="me-1"
                   style="color: #9b9b9b; font-family: Patron-Bold"
                 >
                   ENGLISH
                 </p>
-                <img src="../assets/svgs/down_arrow.svg" alt="" />
+                <img
+                  src="../assets/svgs/down_arrow.svg"
+                  style="cursor: pointer"
+                />
+                <div class="languages_div_1">
+                  <p>ENGLISH</p>
+                  <p class="pt-2">TURKISH</p>
+                </div>
               </div>
               <p
                 style="
@@ -84,13 +94,13 @@
           </div>
 
           <div class="col-auto bar_icon">
-            <i class="fa-solid fa-bars-staggered fa-xl text-white"></i>
+            <i class="fa-solid fa-xmark fa-2x text-white"></i>
           </div>
         </div>
       </div>
       <div style="padding: 60px">
         <div class="py-3">
-          <a href="../index.html">ANA SAYFA</a>
+          <a href="../pages/index.html">ANA SAYFA</a>
         </div>
         <div class="py-3">
           <a href="../pages/landing.html">HİZMETLERİMİZ</a>
@@ -102,11 +112,18 @@
           <a href="../pages/hakkimizda.html">HAKKIMIZDA</a>
         </div>
         <button class="top_header__lets_talk my-3">Let’s Talk</button>
-        <div class="d-flex align-items-center my-3">
+        <div
+          class="d-flex align-items-center my-3"
+          onclick="languages_open_3()"
+        >
           <p class="me-1" style="color: #9b9b9b; font-family: Patron-Bold">
             ENGLISH
           </p>
           <img src="../assets/svgs/down_arrow.svg" alt="" />
+        </div>
+        <div class="languages_div_3">
+          <p>ENGLISH</p>
+          <p class="pt-2">TURKISH</p>
         </div>
         <p
           style="
@@ -239,7 +256,7 @@
 
           <div class="d-flex flex-wrap form__inputs gap-4 mt-4">
             <div>
-              <div class="d-flex gap-2 flex-wrap">
+              <div class="d-flex gap-4 flex-wrap">
                 <input type="text" placeholder="Adınız" class="input_spread" />
                 <input
                   type="text"
@@ -249,10 +266,31 @@
               </div>
               <input type="text" placeholder="Adres" style="width: 100%" />
               <br />
-              <input type="text" placeholder="İlçe" style="width: 100%" />
+              <div class="position-relative">
+                <input type="text" placeholder="İlçe" style="width: 100%" />
+                <div
+                  class="icon"
+                  style="position: absolute; right: 5px; top: 15px"
+                >
+                  <svg
+                    width="9"
+                    height="11"
+                    viewBox="0 0 9 11"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8.40986 4.99949C8.01667 4.60645 7.37997 4.60645 6.98692 4.99949L5.35873 6.62784V1.0064C5.35873 0.450118 4.90786 0 4.35232 0C3.79679 0 3.34592 0.450118 3.34592 1.0064L3.34592 6.62769L1.71772 4.99934C1.32453 4.6063 0.687827 4.6063 0.294783 4.99934C-0.098261 5.39194 -0.098261 6.02999 0.294783 6.42228L3.63972 9.76723C3.73294 9.86029 3.84498 9.93484 3.96982 9.98664C3.97464 9.98875 3.97991 9.98935 3.98533 9.99146C4.09963 10.0365 4.22221 10.0633 4.35232 10.0633C4.48243 10.0633 4.60517 10.0365 4.71931 9.99161C4.72459 9.9895 4.7294 9.9889 4.73468 9.98679C4.85891 9.93589 4.97095 9.86135 5.06492 9.76738L8.40986 6.42244C8.80306 6.02999 8.80306 5.39269 8.40986 4.99949V4.99949Z"
+                      fill="#8C8C8C"
+                    />
+                  </svg>
+                </div>
+              </div>
             </div>
             <div>
-              <div class="d-flex gap-2 flex-wrap">
+              <div class="d-flex gap-4 flex-wrap">
                 <input
                   type="email"
                   placeholder="E-posta"
@@ -260,12 +298,32 @@
                 />
                 <input type="text" placeholder="Gsm no" class="input_spread" />
               </div>
-              <div class="d-flex gap-2 flex-wrap">
+              <div class="d-flex gap-4 flex-wrap">
                 <input type="text" placeholder="İlçe" class="input_spread" />
                 <input type="text" placeholder="İl" class="input_spread" />
               </div>
-
-              <input type="text" placeholder="İlçe" style="width: 100%" />
+              <div class="position-relative">
+                <input type="text" placeholder="İlçe" style="width: 100%" />
+                <div
+                  class="icon"
+                  style="position: absolute; right: 5px; top: 15px"
+                >
+                  <svg
+                    width="9"
+                    height="11"
+                    viewBox="0 0 9 11"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M8.40986 4.99949C8.01667 4.60645 7.37997 4.60645 6.98692 4.99949L5.35873 6.62784V1.0064C5.35873 0.450118 4.90786 0 4.35232 0C3.79679 0 3.34592 0.450118 3.34592 1.0064L3.34592 6.62769L1.71772 4.99934C1.32453 4.6063 0.687827 4.6063 0.294783 4.99934C-0.098261 5.39194 -0.098261 6.02999 0.294783 6.42228L3.63972 9.76723C3.73294 9.86029 3.84498 9.93484 3.96982 9.98664C3.97464 9.98875 3.97991 9.98935 3.98533 9.99146C4.09963 10.0365 4.22221 10.0633 4.35232 10.0633C4.48243 10.0633 4.60517 10.0365 4.71931 9.99161C4.72459 9.9895 4.7294 9.9889 4.73468 9.98679C4.85891 9.93589 4.97095 9.86135 5.06492 9.76738L8.40986 6.42244C8.80306 6.02999 8.80306 5.39269 8.40986 4.99949V4.99949Z"
+                      fill="#8C8C8C"
+                    />
+                  </svg>
+                </div>
+              </div>
             </div>
           </div>
           <div class="d-flex gap-3 align-items-center mt-5">
@@ -276,7 +334,7 @@
             </p>
           </div>
           <button class="post_form mt-4">
-            <div class="d-flex gap-3 align-items-center">
+            <div class="d-flex gap-3 align-items-center pe-3">
               <p>FORMU GÖNDER</p>
               <svg
                 width="9"
@@ -431,6 +489,14 @@
         console.log("sadsa");
         $(".toggle_fixed_div").toggle(300);
       });
+
+      function languages_open() {
+        $(".languages_div_1").toggle(300);
+      }
+
+      function languages_open_2() {
+        $(".languages_div_2").toggle(300);
+      }
     </script>
   </body>
 </html>
