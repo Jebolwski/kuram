@@ -228,6 +228,7 @@ function languages_open_3() {
   $(".languages_div_3").toggle(300);
 }
 
+// Photo divs
 $(".block__three_divs_div_1").click(function () {
   $(".block__wave").find("img").addClass("d-none");
   $(".wave_default").removeClass("d-none");
