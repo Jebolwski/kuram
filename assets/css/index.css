@@ -306,6 +306,12 @@ table {
 .block__neler_yapıyoruz_div .detay {
   font-size: 15px;
   color: #d8d8d8;
+  transition: 0.2s;
+}
+
+.block__neler_yapıyoruz_div .detay:hover {
+  opacity: 0.5;
+  transition: 0.2s;
 }
 
 .block__partner {
