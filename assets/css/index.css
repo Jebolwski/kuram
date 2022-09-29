@@ -269,7 +269,7 @@ table {
 }
 
 .block__neler_yapıyoruz_div {
-  width: 400px;
+  max-width: 400px;
   font-family: "Patron";
 }
 
@@ -597,6 +597,12 @@ table {
   max-width: 78vw;
 }
 
+@media only screen and (max-width: 952px) {
+  .last_2_items {
+    justify-content: center;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .block__wave img {
     display: none;
@@ -623,6 +629,9 @@ table {
     width: auto;
   }
   .block__news_main {
+    justify-content: center;
+  }
+  .last_2_items {
     justify-content: center;
   }
 }
@@ -654,5 +663,9 @@ table {
   }
   .input_spread {
     width: 100%;
+  }
+  .features_items_parents {
+    display: grid;
+    place-items: center;
   }
 }
