@@ -162,6 +162,10 @@ table {
   src: url("../fonts/Patron-MediumItalic.ttf");
 }
 
+.top_header {
+  padding-top: 5px;
+}
+
 .top_header__lets_talk {
   background: linear-gradient(180deg, #043b60 0%, #022943 100%);
   box-shadow: 0px 0px 20px 0px #00000003;
@@ -198,6 +202,15 @@ table {
   padding: 5px 0;
   font-size: 12px;
   cursor: pointer;
+  transition: 0.1s;
+}
+
+.footer_div .row div p:hover {
+  padding: 5px 0;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.1s;
+  opacity: 0.5;
 }
 
 .footer_div p {
@@ -230,6 +243,7 @@ table {
   position: fixed;
   width: 100%;
   top: 0;
+  padding-top: 5px;
   height: 100vh;
   z-index: 10;
   background-color: #212121;
@@ -283,6 +297,10 @@ table {
 
 .block__roadmap .item {
   cursor: pointer;
+}
+
+.block__roadmap .item:hover {
+  opacity: 0.5;
 }
 
 .languages_div_1 {

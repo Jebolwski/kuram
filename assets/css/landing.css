@@ -5,10 +5,16 @@
   color: #ffffff;
   padding: 8px 18px;
   text-decoration: none;
+  transition: 0.2s;
 }
 
 .block__roadmap {
   margin-top: 40px;
+}
+
+.block__roadmap .item:hover {
+  opacity: 0.5;
+  transition: 0.2s;
 }
 
 .title svg {
@@ -41,13 +47,19 @@
   border-radius: 10px;
   max-height: 300px;
   max-width: 1215px;
-  width: 74vw;
 }
 
 .picture_div .image img {
   margin-top: 40px;
   max-width: 1205px;
   width: 80vw;
+}
+
+.picture_div .image .arrow {
+  position: absolute;
+  cursor: pointer;
+  right: 10%;
+  top: 40px;
 }
 
 .description_text {

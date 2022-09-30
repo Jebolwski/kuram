@@ -229,7 +229,7 @@ function languages_open_3() {
 }
 
 // Photo divs
-$(".block__three_divs_div_1").click(function () {
+$(".block__three_divs_div_1").hover(function () {
   $(".block__wave").find("img").addClass("d-none");
   $(".wave_default").removeClass("d-none");
   $(".block__three_divs_div_3").css("margin-top", "0px");
@@ -237,7 +237,7 @@ $(".block__three_divs_div_1").click(function () {
   $(".block__three_divs_div_1").css("margin-top", "-30px");
 });
 
-$(".block__three_divs_div_2").click(function () {
+$(".block__three_divs_div_2").hover(function () {
   $(".block__wave").find("img").addClass("d-none");
   $(".wave_zaire").removeClass("d-none");
   $(".block__three_divs_div_1").css("margin-top", "0px");
@@ -245,10 +245,64 @@ $(".block__three_divs_div_2").click(function () {
   $(".block__three_divs_div_2").css("margin-top", "-30px");
 });
 
-$(".block__three_divs_div_3").click(function () {
+$(".block__three_divs_div_3").hover(function () {
   $(".block__wave").find("img").addClass("d-none");
   $(".wave_madison").removeClass("d-none");
   $(".block__three_divs_div_1").css("margin-top", "0px");
   $(".block__three_divs_div_2").css("margin-top", "0px");
   $(".block__three_divs_div_3").css("margin-top", "-30px");
+});
+
+$("#partner").click(function () {
+  $("#temsilci").removeClass("active");
+  $("#gelistirici").removeClass("active");
+  $("#partner").addClass("active");
+  $(".block__partner").find("img").addClass("d-none");
+  $(".buttons_default_image").removeClass("d-none");
+  $(".block__partner").find(".div-2").addClass("d-none");
+  $(".block__partner").find(".div-2.1").removeClass("d-none");
+});
+
+$("#temsilci").click(function () {
+  $("#temsilci").addClass("active");
+  $("#gelistirici").removeClass("active");
+  $("#partner").removeClass("active");
+  $(".block__partner").find("img").addClass("d-none");
+  $(".buttons_zaire").removeClass("d-none");
+  $(".block__partner").find(".div-2").addClass("d-none");
+  $(".block__partner").find(".div-2.2").removeClass("d-none");
+});
+
+$("#gelistirici").click(function () {
+  $("#temsilci").removeClass("active");
+  $("#gelistirici").addClass("active");
+  $("#partner").removeClass("active");
+  $(".block__partner").find("img").addClass("d-none");
+  $(".buttons_madison").removeClass("d-none");
+  $(".block__partner").find(".div-2").addClass("d-none");
+  $(".block__partner").find(".div-2.3").removeClass("d-none");
+});
+
+$("#partner1").click(function () {
+  $("#temsilci1").removeClass("active");
+  $("#gelistirici1").removeClass("active");
+  $("#partner1").addClass("active");
+  $(".block__partner_small").find(".div-2").addClass("d-none");
+  $(".block__partner_small").find(".div-2.1").removeClass("d-none");
+});
+
+$("#temsilci1").click(function () {
+  $("#temsilci1").addClass("active");
+  $("#gelistirici1").removeClass("active");
+  $("#partner1").removeClass("active");
+  $(".block__partner_small").find(".div-2").addClass("d-none");
+  $(".block__partner_small").find(".div-2.2").removeClass("d-none");
+});
+
+$("#gelistirici1").click(function () {
+  $("#temsilci1").removeClass("active");
+  $("#gelistirici1").addClass("active");
+  $("#partner1").removeClass("active");
+  $(".block__partner_small").find(".div-2").addClass("d-none");
+  $(".block__partner_small").find(".div-2.3").removeClass("d-none");
 });
