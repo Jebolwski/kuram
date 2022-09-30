@@ -443,6 +443,16 @@ table {
   font-size: 18px;
 }
 
+.block__features .feature .img {
+  width: 40px;
+  display: grid;
+  place-items: center;
+}
+
+.block__features .feature .img img {
+  width: 40px;
+}
+
 .block__features .feature:hover img {
   color: white;
 }
