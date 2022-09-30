@@ -184,6 +184,21 @@ table {
   text-decoration: none;
   font-family: "Patron";
   font-size: 14px;
+  transition: 0.3s;
+}
+
+.top_header a:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.top_header button:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.top_header p:hover {
+  opacity: 0.5;
+  transition: 0.3s;
 }
 
 * {
