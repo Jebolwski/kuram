@@ -359,6 +359,35 @@ table {
   width: fit-content;
 }
 
+button {
+  transition: 0.2s;
+}
+
+button:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.ilce_select {
+  background-color: transparent;
+  color: #c6c6c6;
+  border: 0;
+  border-bottom: 1px solid #575757;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 23px 0;
+}
+
+.ilce_select select {
+  padding: 2px 30px 2px 2px;
+  color: #c6c6c6;
+  border: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  text-indent: 0.01px;
+}
+
 @media only screen and (max-width: 767px) {
   .block__wave img {
     display: none;

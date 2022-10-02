@@ -306,3 +306,17 @@ $("#gelistirici1").click(function () {
   $(".block__partner_small").find(".div-2").addClass("d-none");
   $(".block__partner_small").find(".div-2.3").removeClass("d-none");
 });
+
+$(".ticked").click(function () {
+  $(".ticked").hide();
+  $(".tick_form").show();
+  console.log("clicked to non-ticked");
+  $(".form_checkbox").prop("checked", false);
+});
+
+$(".tick_form").click(function () {
+  $(".ticked").show();
+  console.log("clicked to ticked");
+  $(".tick_form").hide();
+  $(".form_checkbox").prop("checked", true);
+});
