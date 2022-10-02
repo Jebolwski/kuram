@@ -43,8 +43,9 @@
   position: relative;
 }
 
-.block__graph img {
-  max-width: 64vw;
+.block__graph iframe {
+  width: 64vw;
+  height: 50vh;
 }
 
 .two_divs {

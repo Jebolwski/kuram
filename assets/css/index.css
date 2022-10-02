@@ -465,7 +465,7 @@ table {
   position: absolute;
   right: 20%;
   bottom: 20px;
-  font-size: 25px;
+  font-size: 20px;
   color: #777777;
   min-height: 60px;
 }
@@ -623,6 +623,25 @@ table {
 }
 .wave_madison {
   max-width: 78vw;
+}
+
+.ilce_select {
+  background-color: transparent;
+  color: #c6c6c6;
+  border: 0;
+  border-bottom: 1px solid #575757;
+  width: 100%;
+  padding: 5px 10px;
+  margin: 23px 0;
+}
+
+.ilce_select select {
+  padding: 2px 30px 2px 2px;
+  border: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  text-indent: 0.01px;
 }
 
 @media only screen and (max-width: 952px) {
