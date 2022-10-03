@@ -84,4 +84,7 @@
   .description_text {
     margin-top: 25px;
   }
+  .description_text p {
+    font-size: 15px;
+  }
 }
