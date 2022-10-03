@@ -320,3 +320,9 @@ $(".tick_form").click(function () {
   $(".tick_form").hide();
   $(".form_checkbox").prop("checked", true);
 });
+
+$(".select_icon").click(function () {
+  let select_bar = $(this).parent().find("select").trigger("click");
+  select_bar.click();
+  console.log("clicked");
+});
