@@ -183,6 +183,10 @@ table {
   border: 0;
 }
 
+p i {
+  font-size: 14px;
+}
+
 .top_header a {
   color: white;
   text-decoration: none;
