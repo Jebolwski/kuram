@@ -403,7 +403,6 @@ table {
 }
 
 .block__partner_small {
-  height: 413px;
   margin: 0 auto;
 }
 
@@ -412,10 +411,9 @@ table {
   color: white;
   padding: 10px;
   display: grid;
-  margin-left: -2%;
   width: fit-content;
   place-items: center;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 8px;
 }
 
 .container .buttons {
@@ -643,6 +641,12 @@ table {
 @media only screen and (max-width: 952px) {
   .last_2_items {
     justify-content: center;
+  }
+  .block__partner_small {
+    width: 100%;
+  }
+  .block__partner_small .div-1 div {
+    font-size: 14px;
   }
 }
 

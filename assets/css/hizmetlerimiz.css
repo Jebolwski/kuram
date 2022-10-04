@@ -29,13 +29,14 @@
   background: linear-gradient(#212121 0 0) padding-box,
     linear-gradient(180deg, #373737 0%, #0d6cab 100%) border-box;
   padding: 10px;
+  height: 315px;
   border: 5px solid transparent;
   display: inline-block;
   margin: 40px 0;
   border-width: 2px;
   border-radius: 10px !important;
   border-style: solid;
-  max-width: 958px;
+  height: calc(100% - 100px);
   color: white;
 }
 
@@ -43,7 +44,7 @@
   max-width: 300px;
   margin-left: 50px;
   font-family: "PlusJakartaMedium";
-  margin-top: -15px;
+  margin-top: -25px;
   background: #1d1d1d;
   padding: 20px;
   font-size: 26px;
@@ -57,6 +58,7 @@
   padding: 60px 150px;
   font-size: 20px;
   font-weight: 200;
+  position: relative;
 }
 
 .serial_div_1 img {
@@ -74,6 +76,7 @@
   border: 5px solid transparent;
   display: inline-block;
   margin: 40px 0;
+  height: calc(100% - 100px);
   border-width: 2px;
   border-radius: 10px !important;
   border-style: solid;
@@ -84,7 +87,7 @@
 .serial_div_2 .top_div {
   max-width: 300px;
   margin-left: 50px;
-  margin-top: -15px;
+  margin-top: -25px;
   font-family: "PlusJakartaMedium";
   background: #012844;
   padding: 20px;
@@ -99,6 +102,7 @@
   padding: 60px 150px;
   font-size: 20px;
   font-weight: 200;
+  position: relative;
 }
 
 .serial_div_2 img {
@@ -116,6 +120,7 @@
   border: 5px solid transparent;
   display: inline-block;
   margin: 40px 0;
+  height: calc(100% - 100px);
   border-width: 2px;
   border-radius: 10px !important;
   border-style: solid;
@@ -126,7 +131,7 @@
 .serial_div_3 .top_div {
   max-width: 300px;
   margin-left: 50px;
-  margin-top: -15px;
+  margin-top: -25px;
   font-family: "PlusJakartaMedium";
   background-color: #1d1d1d;
   padding: 20px;
@@ -140,6 +145,7 @@
   background: #181818;
   padding: 60px 150px;
   font-size: 20px;
+  position: relative;
   font-weight: 200;
 }
 
@@ -161,6 +167,7 @@
   border-width: 2px;
   border-radius: 10px !important;
   border-style: solid;
+  height: calc(100% - 100px);
   max-width: 958px;
   color: white;
 }
@@ -168,7 +175,7 @@
 .serial_div_4 .top_div {
   max-width: 300px;
   margin-left: 50px;
-  margin-top: -15px;
+  margin-top: -25px;
   font-family: "PlusJakartaMedium";
   background: #012844;
   padding: 20px;
@@ -182,6 +189,7 @@
   background: #001c2f;
   padding: 60px 150px;
   font-size: 20px;
+  position: relative;
   font-weight: 200;
 }
 
@@ -206,7 +214,7 @@
   padding: 10px 20px;
   position: absolute;
   left: 100px;
-  bottom: -18px;
+  bottom: -25px;
 }
 
 .footer_div {

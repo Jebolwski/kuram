@@ -175,12 +175,17 @@
   left: -1px;
 }
 
+.three_divs .img img {
+  max-width: 279px;
+  width: calc(100% + 3px);
+}
+
 .three_divs .active {
   border: 1px solid #a3a3a3 !important;
 }
 
 .three_divs .div_1 {
-  height: 406px;
+  min-height: 406px;
   max-width: 279px;
   border-radius: 10px;
   position: relative;
@@ -189,7 +194,7 @@
 }
 
 .three_divs .div_2 {
-  height: 406px;
+  min-height: 406px;
   width: 279px;
   border-radius: 10px;
   background: #1b1b1b;
@@ -198,12 +203,20 @@
 }
 
 .three_divs .div_3 {
-  height: 406px;
+  min-height: 406px;
   width: 279px;
   border-radius: 10px;
   background: #1b1b1b;
   position: relative;
   border: 1px solid #424242;
+}
+
+.temel_moduller_responsive_div {
+  width: 440px;
+}
+
+.temel_moduller_responsive_div_1 {
+  width: 300px;
 }
 
 .erp_crm {
@@ -336,5 +349,11 @@
 
   .erp_crm {
     margin-top: 60px;
+  }
+  .temel_moduller_responsive_div_1 {
+    width: 440px;
+  }
+  .temel_moduller_responsive_div {
+    width: 440px;
   }
 }

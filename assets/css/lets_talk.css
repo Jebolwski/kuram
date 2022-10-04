@@ -1,0 +1,164 @@
+.footer_div {
+  background: #1b1b1b;
+  z-index: 999 !important;
+}
+
+.block__roadmap .item {
+  background-color: #414141;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #ffffff;
+  padding: 8px 18px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.block__roadmap {
+  margin-top: 40px;
+}
+
+.block__roadmap .item:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.main_text {
+  color: white;
+  font-size: 52px;
+  font-weight: 200;
+  text-align: center;
+}
+.main_text div {
+  font-family: "PlusJakartaMedium";
+}
+.main_text span {
+  font-family: "PlusJakartaBold";
+  font-weight: 700;
+  background: -webkit-linear-gradient(0deg, #0873ba 4.93%, #00f9f9 98.47%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.demo_talebi {
+  background: #0873bb;
+  width: fit-content;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.sitesinde_gor {
+  background: transparent;
+  width: fit-content;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.description_text {
+  margin-top: 100px;
+  margin-bottom: 140px;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 0.035em;
+}
+
+.description_text p {
+  font-family: "Patron";
+  font-size: 20px;
+  padding-top: 20px;
+  line-height: 32px;
+}
+
+.form p {
+  color: white;
+}
+
+.form {
+  margin-top: 80px;
+}
+
+.form .section-line .round {
+  color: white;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+.form .section-line .line {
+  height: 2px;
+  width: 100%;
+  background-color: white;
+}
+
+.form label {
+  color: white;
+}
+
+.form input {
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid #575757 !important;
+  color: #777777;
+  width: 80%;
+}
+
+.form .file_input {
+  border: 1px solid #575757;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.form textarea:focus {
+  border: 0;
+  outline: 0;
+}
+
+select {
+  background-color: transparent;
+  color: #777777;
+  border: 0 !important;
+  border-bottom: 1px solid #575757 !important;
+  padding: 5px 10px !important;
+  margin: 27px 0;
+  z-index: 10000 !important;
+}
+
+select:focus {
+  outline: 0;
+}
+
+select {
+  padding: 2px 30px 2px 2px;
+  border: none;
+  text-indent: 0.01px;
+}
+
+select option {
+  border: 1px solid #212121;
+  color: #c6c6c6;
+  background: #212121;
+}
+
+.post_form {
+  background: linear-gradient(0deg, #282828, #282828),
+    linear-gradient(0deg, #4b4b4b, #4b4b4b);
+  border: 0;
+  padding: 10px;
+  border-radius: 100px;
+  color: #d4d4d4;
+  font-size: 15px;
+  box-shadow: 0px 0px 20px 0px #00000029;
+  border: 1px solid #4b4b4b;
+  transition: 0.2s;
+}
+
+@media only screen and (max-width: 767px) {
+  .form input {
+    width: 100%;
+  }
+}

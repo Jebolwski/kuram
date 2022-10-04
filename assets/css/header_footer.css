@@ -398,6 +398,10 @@ select option {
   background: #212121;
 }
 
+.responsive_footer_div {
+  width: 120px;
+}
+
 @media only screen and (max-width: 767px) {
   .block__wave img {
     display: none;
@@ -428,6 +432,9 @@ select option {
   }
   .main_text div {
     font-size: 34px;
+  }
+  .responsive_footer_div {
+    width: 200px;
   }
 }
 

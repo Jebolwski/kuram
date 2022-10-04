@@ -28,7 +28,10 @@
               <a href="./pages/landing.html" class="ms-4">HİZMETLERİMİZ</a>
               <a href="./pages/urunlerimiz.html" class="ms-4">ÜRÜNLERİMİZ</a>
               <a href="./pages/hakkimizda.html" class="ms-4">HAKKIMIZDA</a>
-              <button class="top_header__lets_talk ms-4">Let’s Talk</button>
+              <a href="./pages/iletisim.html" class="ms-4">İLETİŞİM</a>
+              <a href="./pages/lets_talk.html">
+                <button class="top_header__lets_talk ms-4">Let’s Talk</button>
+              </a>
               <p class="ms-4" style="color: #9b9b9b">|</p>
               <div
                 class="d-flex align-items-center ms-4 position-relative"
@@ -117,7 +120,12 @@
         <div class="py-3">
           <a href="./pages/hakkimizda.html">HAKKIMIZDA</a>
         </div>
-        <button class="top_header__lets_talk my-3">Let’s Talk</button>
+        <div class="py-3">
+          <a href="./pages/iletisim.html">İLETİŞİM</a>
+        </div>
+        <a href="./pages/lets_talk.html">
+          <button class="top_header__lets_talk my-3">Let’s Talk</button>
+        </a>
         <div
           class="d-flex align-items-center my-3"
           onclick="languages_open_3()"
@@ -358,7 +366,7 @@
         </div>
       </div>
 
-      <div class="container my-5">
+      <div class="container my-4">
         <div class="block__partner d-none d-lg-block">
           <div class="block__partner_img">
             <img
@@ -431,68 +439,41 @@
             </svg>
           </div>
         </div>
-        <div class="block__partner_small d-block d-lg-none">
+        <div class="block__partner_small d-inline-block d-lg-none">
           <div class="row justify-content-center">
-            <div class="div-1 pt-5">
-              <div class="mt-4 ps-5 active" id="partner1">Partner</div>
-              <div class="mt-4 ps-5" id="temsilci1">Ülke Temsilciliği</div>
-              <div class="mt-4 ps-5" id="gelistirici1">Geliştirici</div>
+            <div
+              class="div-1 py-4 d-flex align-items-center justify-content-around"
+              style="height: auto; max-width: 800px; width: 100%"
+            >
+              <div class="mx-2 active" id="partner1">Partner</div>
+              <div class="mx-2" id="temsilci1">Ülke Temsilciliği</div>
+              <div class="mx-2" id="gelistirici1">Geliştirici</div>
             </div>
-            <div class="div-2 1">
+            <div
+              class="div-2 1"
+              style="height: auto; max-width: 800px; width: 100%"
+            >
               Want to use your data to learn more about your customers? Trying
               to uncover business efficiencies to save money? Looking for a
               custom-built app for your community? We can help.
             </div>
-            <div class="div-2 2 d-none">Haber 2</div>
-            <div class="div-2 3 d-none">Haber 3</div>
-
-            <div class="buttons2 gap-3 d-flex justify-content-center mt-4">
-              <div class="left_button">
-                <svg
-                  width="40"
-                  height="40"
-                  viewBox="0 0 40 40"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="20" cy="20" r="20" fill="#323232" />
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M20.064 24.1147C20.457 23.7215 20.457 23.0848 20.064 22.6918L18.4356 21.0636L24.0571 21.0636C24.6134 21.0636 25.0635 20.6127 25.0635 20.0572C25.0635 19.5016 24.6134 19.0508 24.0571 19.0508L18.4358 19.0508L20.0641 17.4226C20.4572 17.0294 20.4572 16.3927 20.0641 15.9996C19.6715 15.6066 19.0335 15.6066 18.6412 15.9996L15.2962 19.3446C15.2032 19.4378 15.1286 19.5498 15.0768 19.6747C15.0747 19.6795 15.0741 19.6847 15.072 19.6902C15.027 19.8045 15.0002 19.927 15.0002 20.0572C15.0002 20.1873 15.027 20.31 15.0719 20.4241C15.074 20.4294 15.0746 20.4342 15.0767 20.4395C15.1276 20.5637 15.2021 20.6758 15.2961 20.7698L18.641 24.1147C19.0335 24.5079 19.6708 24.5079 20.064 24.1147Z"
-                    fill="#9E9E9E"
-                  />
-                </svg>
-              </div>
-              <div class="right_button">
-                <svg
-                  width="40"
-                  height="40"
-                  viewBox="0 0 40 40"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle
-                    cx="20"
-                    cy="20"
-                    r="20"
-                    transform="rotate(180 20 20)"
-                    fill="#323232"
-                  />
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M19.936 15.295C19.543 15.6882 19.543 16.3249 19.936 16.7179L21.5644 18.3461L15.9429 18.3461C15.3866 18.3461 14.9365 18.797 14.9365 19.3525C14.9365 19.908 15.3866 20.3589 15.9429 20.3589L21.5642 20.3589L19.9359 21.9871C19.5428 22.3803 19.5428 23.017 19.9359 23.4101C20.3285 23.8031 20.9665 23.8031 21.3588 23.4101L24.7038 20.0651C24.7968 19.9719 24.8714 19.8599 24.9232 19.735C24.9253 19.7302 24.9259 19.7249 24.928 19.7195C24.973 19.6052 24.9998 19.4826 24.9998 19.3525C24.9998 19.2224 24.973 19.0997 24.9281 18.9855C24.926 18.9802 24.9254 18.9754 24.9233 18.9702C24.8724 18.8459 24.7979 18.7339 24.7039 18.6399L21.359 15.295C20.9665 14.9018 20.3292 14.9018 19.936 15.295Z"
-                    fill="#9E9E9E"
-                  />
-                </svg>
-              </div>
+            <div
+              class="div-2 2 d-none"
+              style="height: auto; max-width: 800px; width: 100%"
+            >
+              Haber 2
+            </div>
+            <div
+              class="div-2 3 d-none"
+              style="height: auto; max-width: 800px; width: 100%"
+            >
+              Haber 3
             </div>
           </div>
         </div>
       </div>
 
-      <div class="container-fluid" style="margin-top: 210px">
+      <div class="container-fluid" style="margin-top: 20px">
         <div class="block__features">
           <div class="row justify-content-center">
             <div
@@ -988,7 +969,7 @@
     <footer class="footer_div">
       <div class="contanier mx-0 mx-lg-5">
         <img src="./assets/svgs/weird_design.svg" class="weird_icon" />
-        <div class="row justify-content-around">
+        <div class="row justify-content-center gap-4">
           <div class="col-auto">
             <a
               href="../index.html"
@@ -999,7 +980,7 @@
                 style="height: 84px; width: 186px"
             /></a>
           </div>
-          <div class="col-auto" style="width: 200px">
+          <div class="col-auto responsive_footer_div">
             <div class="mt-3">
               <p>Get Started</p>
               <p>Support</p>
@@ -1041,6 +1022,7 @@
               <p>Druid University Videos</p>
             </div>
           </div>
+
           <div class="col-auto" style="width: 200px">
             <div class="mt-3">
               <p>Company & Values</p>
